@@ -37,3 +37,32 @@ sudo docker start 81414ed72371
 sudo docker attach 81414ed72371
 ```
 
+## 把容器打包成镜像
+```
+ sudo docker commit 81414ed72371 hoba-desktop:init
+```
+
+## 查看已有的镜像
+```
+sudo docker image ls
+```
+
+## Docker Hub
+```
+my id is doubledog
+```
+
+## change tag
+```
+sudo docker tag hoba-desktop:init doubledog/hoba-desktop:init
+```
+
+## 登陆自己的docker hub
+```
+sudo docker login
+```
+
+## push
+```
+sudo docker push doubledog/hoba-desktop:init
+```
