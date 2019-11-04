@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker"
 date:   2019-07-12 09:37:00 +0800
-categories: Tools docker
+categories: tools
 ---
 
 ## Install

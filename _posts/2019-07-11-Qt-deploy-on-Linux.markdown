@@ -2,7 +2,7 @@
 layout: post
 title:  "Qt deploy on Linux"
 date:   2019-07-11 17:43:05 +0800
-categories: C++ Qt
+categories: qt
 ---
 
 # ls
