@@ -1,0 +1,84 @@
+---
+layout: post
+title:  "Bitcoin"
+date:   2019-11-05 10:55:00 +0800
+categories: bitcoin
+---
+
+gui
+    node
+        chain
+        chain_clients
+            wallet
+
+
+Init
+    setup
+
+    parameter interactions
+
+    parameter-to-internal-flags
+
+    sanity checks
+    application initialization
+        create pid file
+        shrink debug file
+        open debug log
+        init signature cache
+        init script execution cache
+        create threads for script 
+        start lightweight task scheduler thread
+        register signals
+        wallet construct
+        register core rpc commands
+        register wallet rpc commands
+        set rpc warmup status
+        init servers
+        start tox core
+
+    wallet verify
+    
+    network initialization      
+
+    load block chain
+
+    start indexers
+
+    load wallet
+
+    data directory maintenance
+
+    import blocks
+
+    start node
+
+    finished
+        set rpc warm finished
+        client start
+
+
+WaitForShutdown
+
+Shutdown
+
+
+
+
+
+
+
+
+
+
+------
+CScheduler
+CConnman
+peerLogic
+BanMan
+CClientUIInterface
+Server
+
+g_txindex
+
+CChain& chainActive = g_chainstate.chainActive;
+
