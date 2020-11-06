@@ -6,7 +6,128 @@
     <description>Recent content on 张召付</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sum校验</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/sum/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/sum/</guid>
+      <description>文件校验 网上下载很多文件，都会提供md5或者SHA256校验，防止文件内容被篡改，文件下载到本地后，我们可以对文件进行校验。
+文件MD5、SHA1、SHA256校验 2f6c38be914b756fde482fff83064d37 test.txt // md5sum test.txt 228dfdb10e9ad6fdf5ca97f402355df1952112fe test.txt // shasum -a 1 test.tx d8a0785f3ce124ee8c79c172eefdc6989141aafaf9deab2dac8437ed5e60f5c4 test.txt // shasum -a 256 test.txt </description>
+    </item>
+    
+    <item>
+      <title>Python教程</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/python/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>图灵</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/ituring/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/ituring/</guid>
+      <description>程序员 https://www.ituring.com.cn/article/198286
+书 https://www.ituring.com.cn/article/509843
+计算机简史 无线通信简史：从电磁波到5G
+Python 路线 https://www.ituring.com.cn/article/509718</description>
+    </item>
+    
+    <item>
+      <title>教育</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/teacher/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/teacher/</guid>
+      <description>儿童教育 关承华</description>
+    </item>
+    
+    <item>
+      <title>车险</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/car_-insurance/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/car_-insurance/</guid>
+      <description>车险  第一年，太平洋，4780.16 第二年，平安, 3333.13 - 508 - 80  详细 </description>
+    </item>
+    
+    <item>
+      <title>天津</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/tianjin/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/tianjin/</guid>
+      <description>时间线  8月底提交材料， 9月底收到准迁短信， 10月国庆放假回老家办理迁出， 10号去东丽区的张贵庄派出所办理迁入 30号去拿户口页及办理身份证  联系方式 天津易立物业服务有限公司
+ 天津市东丽区华明高新技术产业区金地企业总部A区A座5B 18855128961  张贵庄派出所
+ 东丽区先锋路13号 (022)24390434  户口页
+ 先锋东路17号，东丽区人才资源和社会保障局 (022)24982923  身份证
+ 东丽开发区一经路30号，人口管理服务中心 (022)24981763  </description>
+    </item>
+    
+    <item>
+      <title>JavaScript教程</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/javascript/</link>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/javascript/</guid>
+      <description>数据类型 布尔 (Boolean) 数字 (Number) 字符串 (String) 数组 (Array) 对象 (Object) 空 (Null) 未定义 (Undefined)
+在 JavaScript 中有 5 种不同的数据类型：
+string number boolean object function  3 种对象类型：
+Object Date Array  2 个不包含任何值的数据类型：
+null undefined  你可以使用 typeof 操作符来查看 JavaScript 变量的数据类型。
+constructor 属性返回所有 JavaScript 变量的构造函数。
+声明（创建）变量 var name; name = &amp;#34;hello&amp;#34;; 或者
+var name = &amp;#34;hello&amp;#34;; undefined 未使用值来声明的变量，其值实际上是 undefined。
+var name; // name的值是undefined 重新声明 JavaScript 变量 如果重新声明 JavaScript 变量，该变量的值不会丢失： 在以下两条语句执行后，变量 carname 的值依然是 &amp;ldquo;Volvo&amp;rdquo;：</description>
+    </item>
+    
+    <item>
+      <title>Raspberry</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/raspberry/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/raspberry/</guid>
+      <description>初始设置 用户名: pi 密码: raspberry
+查看型号 cat /proc/device-tree/model 我的查出来的结果是Raspberry Pi 3 Model B Rev 1.2 查看32位还是64位 getconf LONG_BIT 配置树莓派 很多配置可以进入 sudo raspi-config, 进行配置 添加wifi vi /etc/wpa_supplicant/wpa_supplicant.conf network={ ssid=&amp;#34;CU_6USt&amp;#34; psk=&amp;#34;6ust1qyd&amp;#34; key_mgmt=WPA-PSK priority=1 } 设置git服务器 添加git用户 sudo useradd git cd /home sudo mkdir git sudo chown git:git git sudo password git git仓库 git的家目录里,ssh-keygen cd .ssh vi authorized_keys, 添加其他电脑的~/.ssh/id_rsa.pub里的内容 cd ~git mkdir test.git cd test.git git init --bare 其他电脑clone git clone git@192.168.1.106:test.git </description>
+    </item>
+    
+    <item>
+      <title>Go学习</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/go/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/go/</guid>
+      <description>Go学习资料 </description>
+    </item>
+    
+    <item>
+      <title>Linux学习</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/linux/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/linux/</guid>
+      <description>Linux学习资料 Linux典藏大系 Unix, 1969, AT&amp;amp;T, HP-UX, Solaris; BSD, FreeBSD, OpenBSD, 1991年，芬兰，Linus Torvalds GNU, Richard Stallman
+Linux内核, kernel.org
+ 桌面  Windows macOS Linux 服务器 Unix/Linux Windows Server 移动 Android iOS 嵌入式 Linux    虚拟机 操作系统发展  Unux C GNU POSIX Minix Linux  Linux内核版本，发行版本 操作系统(系统调用，shell) 硬件
+目录结构 </description>
+    </item>
+    
+    <item>
+      <title>pyinstaller使用</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/pyinstaller/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/pyinstaller/</guid>
+      <description>pyinstaller部署pyqt5开发的程序demo 可以查看hello_pyinstaller
+使用python3.8在mac中遇到的问题, TypeError: an integer is required (got type bytes) when compiling any script 解决办法：
+pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz </description>
+    </item>
+    
     <item>
       <title>Hugo教程</title>
       <link>https://zhangzhaofu.github.io/zh-cn/posts/hugo/</link>

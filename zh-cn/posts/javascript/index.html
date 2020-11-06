@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="zh-cn">
+
+    <meta name="author" content="张召付">
+    <meta name="description" content="数据类型 布尔 (Boolean) 数字 (Number) 字符串 (String) 数组 (Array) 对象 (Object) 空 (Null) 未定义 (Undefined)
+在 JavaScript 中有 5 种不同的数据类型：
+string number boolean object function  3 种对象类型：
+Object Date Array  2 个不包含任何值的数据类型：
+null undefined  你可以使用 typeof 操作符来查看 JavaScript 变量的数据类型。
+constructor 属性返回所有 JavaScript 变量的构造函数。
+声明（创建）变量 var name; name = &#34;hello&#34;; 或者
+var name = &#34;hello&#34;; undefined 未使用值来声明的变量，其值实际上是 undefined。
+var name; // name的值是undefined 重新声明 JavaScript 变量 如果重新声明 JavaScript 变量，该变量的值不会丢失： 在以下两条语句执行后，变量 carname 的值依然是 &ldquo;Volvo&rdquo;：">
+    <meta name="keywords" content="blog,desenvolvedor,pessoal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="JavaScript教程"/>
+<meta name="twitter:description" content="数据类型 布尔 (Boolean) 数字 (Number) 字符串 (String) 数组 (Array) 对象 (Object) 空 (Null) 未定义 (Undefined)
+在 JavaScript 中有 5 种不同的数据类型：
+string number boolean object function  3 种对象类型：
+Object Date Array  2 个不包含任何值的数据类型：
+null undefined  你可以使用 typeof 操作符来查看 JavaScript 变量的数据类型。
+constructor 属性返回所有 JavaScript 变量的构造函数。
+声明（创建）变量 var name; name = &#34;hello&#34;; 或者
+var name = &#34;hello&#34;; undefined 未使用值来声明的变量，其值实际上是 undefined。
+var name; // name的值是undefined 重新声明 JavaScript 变量 如果重新声明 JavaScript 变量，该变量的值不会丢失： 在以下两条语句执行后，变量 carname 的值依然是 &ldquo;Volvo&rdquo;："/>
+
+    <meta property="og:title" content="JavaScript教程" />
+<meta property="og:description" content="数据类型 布尔 (Boolean) 数字 (Number) 字符串 (String) 数组 (Array) 对象 (Object) 空 (Null) 未定义 (Undefined)
+在 JavaScript 中有 5 种不同的数据类型：
+string number boolean object function  3 种对象类型：
+Object Date Array  2 个不包含任何值的数据类型：
+null undefined  你可以使用 typeof 操作符来查看 JavaScript 变量的数据类型。
+constructor 属性返回所有 JavaScript 变量的构造函数。
+声明（创建）变量 var name; name = &#34;hello&#34;; 或者
+var name = &#34;hello&#34;; undefined 未使用值来声明的变量，其值实际上是 undefined。
+var name; // name的值是undefined 重新声明 JavaScript 变量 如果重新声明 JavaScript 变量，该变量的值不会丢失： 在以下两条语句执行后，变量 carname 的值依然是 &ldquo;Volvo&rdquo;：" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zhangzhaofu.github.io/zh-cn/posts/javascript/" />
+<meta property="article:published_time" content="2020-10-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-29T00:00:00+00:00" /><meta property="og:site_name" content="张召付" />
+
+
+    <title>
+  JavaScript教程 · 张召付
+</title>
+
+    
+      <link rel="canonical" href="https://zhangzhaofu.github.io/zh-cn/posts/javascript/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.9836c03fe5c87d102278a33e86d0591ef36c89b1e17e8e547ebf84c05cee010e.css" integrity="sha256-mDbAP&#43;XIfRAieKM&#43;htBZHvNsibHhfo5Ufr&#43;EwFzuAQ4=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.717236c74e0a5208ef73964a9f44c6b443b689a95b270d8b2a40d0c012460dac.css" integrity="sha256-cXI2x04KUgjvc5ZKn0TGtEO2ialbJw2LKkDQwBJGDaw=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+      <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    
+
+    <meta name="generator" content="Hugo 0.76.5" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=" twemoji.parse(document.body); "
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/zh-cn">
+      张召付
+    </a>
+    
+      
+        <span id="dark-mode-toggle" class="float-right">
+          <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </span>
+      
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/zh-cn/about/">关于</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/zh-cn/posts/">博客</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/zh-cn/contact/">联系方式</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="https://zhangzhaofu.github.io/en-us/">English</a>
+              </li>
+            
+          
+        
+        
+          <li class="navigation-item separator">
+            <span>|</span>
+          </li>
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">JavaScript教程</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2020-10-29T00:00:00Z'>
+                2020-10-29
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              2 分钟阅读时间
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/zh-cn/categories/javascript/">javascript</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="/zh-cn/tags/javascript/">javascript</a>
+      <span class="separator">•</span>
+    <a href="/zh-cn/tags/web/">web</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <h2 id="数据类型">数据类型</h2>
+<p>布尔 (Boolean)
+数字 (Number)
+字符串 (String)
+数组 (Array)
+对象 (Object)
+空 (Null)
+未定义 (Undefined)</p>
+<p>在 JavaScript 中有 5 种不同的数据类型：</p>
+<pre><code>string
+number
+boolean
+object
+function
+</code></pre>
+<p>3 种对象类型：</p>
+<pre><code>Object
+Date
+Array
+</code></pre>
+<p>2 个不包含任何值的数据类型：</p>
+<pre><code>null
+undefined
+</code></pre>
+<p>你可以使用 typeof 操作符来查看 JavaScript 变量的数据类型。</p>
+<p>constructor 属性返回所有 JavaScript 变量的构造函数。</p>
+<h2 id="声明创建变量">声明（创建）变量</h2>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var name;
+name = &#34;hello&#34;;
+</code></pre></div><p>或者</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var name = &#34;hello&#34;;
+</code></pre></div><h2 id="undefined">undefined</h2>
+<p>未使用值来声明的变量，其值实际上是 undefined。</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var name;   // name的值是undefined
+</code></pre></div><h2 id="重新声明-javascript-变量">重新声明 JavaScript 变量</h2>
+<p>如果重新声明 JavaScript 变量，该变量的值不会丢失：
+在以下两条语句执行后，变量 carname 的值依然是 &ldquo;Volvo&rdquo;：</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var carname=&#34;Volvo&#34;;        
+var carname;
+</code></pre></div><h2 id="javascript-拥有动态类型">JavaScript 拥有动态类型</h2>
+<p>JavaScript 拥有动态类型。这意味着相同的变量可用作不同的类型：</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var x;               // x 为 undefined
+var x = 5;           // 现在 x 为数字
+var x = &#34;John&#34;;      // 现在 x 为字符串
+</code></pre></div><h2 id="字符串">字符串</h2>
+<p>字符串是存储字符（比如 &ldquo;Bill Gates&rdquo;）的变量。
+字符串可以是引号中的任意文本。您可以使用单引号或双引号：</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var carname=&#34;Volvo XC60&#34;;
+var carname=&#39;Volvo XC60&#39;;
+</code></pre></div><p>可以使用内置属性 length 来计算字符串的长度：</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var txt = &#34;ABCDEFGHIJKLMNOPQRSTUVWXYZ&#34;;
+var sln = txt.length;
+</code></pre></div><p>通常， JavaScript 字符串是原始值，可以使用字符创建： var firstName = &ldquo;John&rdquo;
+但我们也可以使用 new 关键字将字符串定义为一个对象： var firstName = new String(&ldquo;John&rdquo;)</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var x = &#34;John&#34;;
+var y = new String(&#34;John&#34;);
+typeof x // returns String
+typeof y // returns Object 
+</code></pre></div><p>不要创建 String 对象。它会拖慢执行速度，并可能产生其他副作用：</p>
+<h2 id="数字">数字</h2>
+<p>JavaScript 只有一种数字类型。数字可以带小数点，也可以不带：</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var x1=34.00;      // 使用小数点来写
+var x2=34;         // 不使用小数点来写
+</code></pre></div><h2 id="布尔">布尔</h2>
+<p>布尔（逻辑）只能有两个值：true 或 false。</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var x=true;
+ var y=false;
+</code></pre></div><h2 id="数组">数组</h2>
+<p>下面的代码创建名为 cars 的数组：</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var cars=new Array();
+ cars[0]=&#34;Saab&#34;;
+ cars[1]=&#34;Volvo&#34;;
+ cars[2]=&#34;BMW&#34;;
+</code></pre></div><p>或者 (condensed array):</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var cars=new Array(&#34;Saab&#34;,&#34;Volvo&#34;,&#34;BMW&#34;);
+</code></pre></div><p>或者 (literal array):</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var cars=[&#34;Saab&#34;,&#34;Volvo&#34;,&#34;BMW&#34;]; 
+</code></pre></div><h2 id="对象">对象</h2>
+<p>对象由花括号分隔。在括号内部，对象的属性以名称和值对的形式 (name : value) 来定义。属性由逗号分隔：</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var person={firstname:&#34;John&#34;, lastname:&#34;Doe&#34;, id:5566};
+</code></pre></div><p>上面例子中的对象 (person) 有三个属性：firstname、lastname 以及 id。
+空格和折行无关紧要。声明可横跨多行：</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var person={
+ firstname : &#34;John&#34;,
+ lastname  : &#34;Doe&#34;,
+ id        :  5566
+ };
+</code></pre></div><p>对象属性有两种寻址方式：</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">name=person.lastname;
+name=person[&#34;lastname&#34;]; 
+</code></pre></div><h2 id="undefined-和-null">Undefined 和 Null</h2>
+<p>Undefined 这个值表示变量不含有值。
+可以通过将变量的值设置为 null 来清空变量。</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cars=null;
+person=null;
+</code></pre></div><h2 id="声明变量类型">声明变量类型</h2>
+<p>当您声明新变量时，可以使用关键词 &ldquo;new&rdquo; 来声明其类型：</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var carname=new String;
+ var x=      new Number;
+ var y=      new Boolean;
+ var cars=   new Array;
+ var person= new Object;
+</code></pre></div><h2 id="函数">函数</h2>
+<p>函数就是包裹在花括号中的代码块，前面使用了关键词 function：</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">function functionname()
+{
+    执行代码
+}
+</code></pre></div><p>函数参数</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">function myFunction(var1,var2)
+{
+    代码
+}
+</code></pre></div><p>返回值</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">function myFunction()
+{
+    var x=5;
+    return x;
+}
+</code></pre></div><p>JavaScript 函数可以通过一个表达式定义。</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var x = function (a, b) {return a * b};
+var z = x(4, 3);
+</code></pre></div><h2 id="局部变量全局变量-作用域生存期">局部变量，全局变量 (作用域，生存期)</h2>
+<p>在 JavaScript 函数内部声明的变量（使用 var）是局部变量，所以只能在函数内部访问它
+在函数外声明的变量是全局变量</p>
+<p>JavaScript 变量的生命期从它们被声明的时间开始
+局部变量会在函数运行以后被删除。
+全局变量会在页面关闭后被删除。</p>
+<p>如果您把值赋给尚未声明的变量，该变量将被自动作为全局变量声明。</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> carname=&#34;Volvo&#34;;
+</code></pre></div><p>将声明一个全局变量 carname，即使它在函数内执行。</p>
+<p>HTML 中的全局变量
+在 HTML 中, 全局变量是 window 对象: 所有数据变量都属于 window 对象。</p>
+<h2 id="事件">事件</h2>
+<p>事件是可以被 JavaScript 侦测到的行为。
+以下是 HTML 事件的实例：
+HTML 页面完成加载
+HTML input 字段改变时
+HTML 按钮被点击
+通常，当事件发生时，你可以做些事情。</p>
+<h2 id="运算符">运算符</h2>
+<p>算术运算符</p>
+<table>
+<thead>
+<tr>
+<th>+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>*</td>
+</tr>
+<tr>
+<td>/   (除法)</td>
+</tr>
+<tr>
+<td>%</td>
+</tr>
+<tr>
+<td>++</td>
+</tr>
+<tr>
+<td>&ndash;</td>
+</tr>
+</tbody>
+</table>
+<p>赋值运算符
+=
++=
+-=
+*=
+/=
+%=</p>
+<p>两个数字相加，返回数字相加的和，如果数字与字符串相加，返回字符串</p>
+<p>比较运算符
+==
+=== (绝对等于，值和类型都相等)
+!=
+!==
+&gt;
+&lt;
+&gt;=
+&lt;=</p>
+<p>逻辑运算符
+&amp;&amp;
+||
+!</p>
+<p>三目运算符
+condition ? value1 : value2</p>
+<h2 id="语句">语句</h2>
+<p>if
+else
+switch</p>
+<p>for
+for in
+while
+do while</p>
+<p>break
+continue</p>
+<h2 id="错误处理">错误处理</h2>
+<p>throw、try 和 catch</p>
+<h2 id="调试">调试</h2>
+<p>如果浏览器支持调试，你可以使用 console.log() 方法在调试窗口上打印 JavaScript 值：</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "zhangzf" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      
+    
+
+    
+
+    
+
+    <script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//analytics.example.com/tracker.js', 'fathom');
+fathom('set', 'siteId', 'ABCDE');
+fathom('trackPageview');
+</script>
+
+
+    <script async defer data-domain="example.com" src="https://analytics.example.com/js/plausible.js"></script>
+
+
+    <script data-goatcounter="https://code.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+  </body>
+
+</html>

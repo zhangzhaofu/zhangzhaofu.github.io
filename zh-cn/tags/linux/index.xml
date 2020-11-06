@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on 张召付</title>
+    <link>https://zhangzhaofu.github.io/zh-cn/tags/linux/</link>
+    <description>Recent content in linux on 张召付</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Raspberry</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/raspberry/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/raspberry/</guid>
+      <description>初始设置 用户名: pi 密码: raspberry
+查看型号 cat /proc/device-tree/model 我的查出来的结果是Raspberry Pi 3 Model B Rev 1.2 查看32位还是64位 getconf LONG_BIT 配置树莓派 很多配置可以进入 sudo raspi-config, 进行配置 添加wifi vi /etc/wpa_supplicant/wpa_supplicant.conf network={ ssid=&amp;#34;CU_6USt&amp;#34; psk=&amp;#34;6ust1qyd&amp;#34; key_mgmt=WPA-PSK priority=1 } 设置git服务器 添加git用户 sudo useradd git cd /home sudo mkdir git sudo chown git:git git sudo password git git仓库 git的家目录里,ssh-keygen cd .ssh vi authorized_keys, 添加其他电脑的~/.ssh/id_rsa.pub里的内容 cd ~git mkdir test.git cd test.git git init --bare 其他电脑clone git clone git@192.168.1.106:test.git </description>
+    </item>
+    
+    <item>
+      <title>Linux学习</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/linux/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/linux/</guid>
+      <description>Linux学习资料 Linux典藏大系 Unix, 1969, AT&amp;amp;T, HP-UX, Solaris; BSD, FreeBSD, OpenBSD, 1991年，芬兰，Linus Torvalds GNU, Richard Stallman
+Linux内核, kernel.org
+ 桌面  Windows macOS Linux 服务器 Unix/Linux Windows Server 移动 Android iOS 嵌入式 Linux    虚拟机 操作系统发展  Unux C GNU POSIX Minix Linux  Linux内核版本，发行版本 操作系统(系统调用，shell) 硬件
+目录结构 </description>
+    </item>
+    
+  </channel>
+</rss>

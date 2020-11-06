@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sum on 张召付</title>
+    <link>https://zhangzhaofu.github.io/zh-cn/tags/sum/</link>
+    <description>Recent content in sum on 张召付</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/sum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sum校验</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/sum/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/sum/</guid>
+      <description>文件校验 网上下载很多文件，都会提供md5或者SHA256校验，防止文件内容被篡改，文件下载到本地后，我们可以对文件进行校验。
+文件MD5、SHA1、SHA256校验 2f6c38be914b756fde482fff83064d37 test.txt // md5sum test.txt 228dfdb10e9ad6fdf5ca97f402355df1952112fe test.txt // shasum -a 1 test.tx d8a0785f3ce124ee8c79c172eefdc6989141aafaf9deab2dac8437ed5e60f5c4 test.txt // shasum -a 256 test.txt </description>
+    </item>
+    
+  </channel>
+</rss>

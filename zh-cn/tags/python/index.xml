@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on 张召付</title>
+    <link>https://zhangzhaofu.github.io/zh-cn/tags/python/</link>
+    <description>Recent content in python on 张召付</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python教程</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/python/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pyinstaller使用</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/pyinstaller/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/pyinstaller/</guid>
+      <description>pyinstaller部署pyqt5开发的程序demo 可以查看hello_pyinstaller
+使用python3.8在mac中遇到的问题, TypeError: an integer is required (got type bytes) when compiling any script 解决办法：
+pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz </description>
+    </item>
+    
+  </channel>
+</rss>
