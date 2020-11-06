@@ -8,6 +8,46 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Bitcoin</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/bitcoin_uiinterface/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/bitcoin_uiinterface/</guid>
+      <description>bitcoin uiInterface tox/toxcore.cpp #include &amp;lt;ui_interface.h&amp;gt; static void friend_request_cb(Tox *tox, const uint8_t *public_key, const uint8_t *message, size_t length, void *user_data) { // ... uiInterface.FriendRequest(pubkeyHex, req-&amp;gt;msg); } ui_interface.h class CClientUIInterface { // ... ADD_SIGNALS_DECL_WRAPPER(FriendRequest, void, const std::string&amp;amp;, const std::string&amp;amp;); }; ui_interface.cpp struct UISignals { // ... boost::signals2::signal&amp;lt;CClientUIInterface::FriendRequestSig&amp;gt; FriendRequest; } g_ui_signals; ADD_SIGNALS_IMPL_WRAPPER(FriendRequest); void CClientUIInterface::FriendRequest(const std::string&amp;amp; pubkey, const std::string&amp;amp; msg) { return g_ui_signals.FriendRequest(pubkey, msg); } interfaces/node.h class Node { // ... //! Register handler for tox friend request.</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/docker/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/docker/</guid>
+      <description>Install sudo apt install docker.io Get Ubuntu16.04 image sudo docker pull ubuntu:16.04 Start ubuntu16.04 and make /home/zhangzf/Workspace to docker&amp;rsquo;s /Workspace sudo docker run -it -v /home/zhangzf/Workspace:/Workspace ubuntu:16.04 /bin/bash Create user: &amp;lsquo;zhangzf&amp;rsquo; Install sudo, make &amp;lsquo;zhangzf&amp;rsquo; into sudoer su - zhangzf 查看所有的容器 sudo docker container ls -a 运行一个已有的容器 sudo docker start 81414ed72371 sudo docker attach 81414ed72371 把容器打包成镜像 sudo docker commit 81414ed72371 hoba-desktop:init 查看已有的镜像 sudo docker image ls Docker Hub my id is doubledog change tag sudo docker tag hoba-desktop:init doubledog/hoba-desktop:init 登陆自己的docker hub sudo docker login push sudo docker push doubledog/hoba-desktop:init </description>
+    </item>
+    
+    <item>
+      <title>qt deploy on linux</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/qt_deploy_on_linux/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/qt_deploy_on_linux/</guid>
+      <description>ls Hoba Hoba.sh lib lnd plugins qml qt.conf Hoba.sh #!/bin/sh appname=`basename $0 | sed s,\.sh$,,` dirname=`dirname $0` tmp=&amp;#34;${dirname#?}&amp;#34; if [ &amp;#34;${dirname%$tmp}&amp;#34; != &amp;#34;/&amp;#34; ]; then dirname=$PWD/$dirname fi LD_LIBRARY_PATH=$dirname/lib export LD_LIBRARY_PATH $dirname/$appname &amp;#34;$@&amp;#34; qt.conf [Paths] Prefix = ./ Plugins = plugins Imports = qml Qml2Imports = qml plugins/ bearer iconengines imageformats platforminputcontexts platforms xcbglintegrations (我是用的linuxdeployqt,生成的。从github上下载源码编译安装。linuxdeployqt Hoab -qml=../../src/pages) qml com QtGraphicalEffects QtQml QtQuick QtQuick.2 (com 是生成二维码的一个工具用到的import模块,https://github.com/toby20130333/qtquickqrencode.git) lib fonts libgrpc++.so.1 libQt5DBus.so.5 libQt5QuickControls2.so.5 libQt5Svg.so.5 libssl.</description>
+    </item>
+    
+    <item>
+      <title>Rust</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/rust/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/rust/</guid>
+      <description>Rust 安装Rust curl &amp;ndash;proto &amp;lsquo;=https&amp;rsquo; &amp;ndash;tlsv1.2 -sSf https://sh.rustup.rs | sh
+设置环境变量 export PATH=$PATH:$HOME/.cargo/bin
+用rustup管理工具链 rustup target list rustup target add x86_64-pc-windows-gnu rustup target add x86_64-apple-darwin
+在Windows中使用gnu工具链 rustup set default-host x86_64-pc-windows-gnu 查看C:\Users\zhangzf.rustup\toolchains\stable-x86_64-pc-windows-gnu\lib\rustlib\x86_64-pc-windows-gnu\bin中gcc的版本 下载mingw-w64对应的版本,并设置环境变量
+cargo cargo update cargo clean cargo build</description>
+    </item>
+    
+    <item>
       <title>sum校验</title>
       <link>https://zhangzhaofu.github.io/zh-cn/posts/sum/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
@@ -15,6 +55,15 @@
       <guid>https://zhangzhaofu.github.io/zh-cn/posts/sum/</guid>
       <description>文件校验 网上下载很多文件，都会提供md5或者SHA256校验，防止文件内容被篡改，文件下载到本地后，我们可以对文件进行校验。
 文件MD5、SHA1、SHA256校验 2f6c38be914b756fde482fff83064d37 test.txt // md5sum test.txt 228dfdb10e9ad6fdf5ca97f402355df1952112fe test.txt // shasum -a 1 test.tx d8a0785f3ce124ee8c79c172eefdc6989141aafaf9deab2dac8437ed5e60f5c4 test.txt // shasum -a 256 test.txt </description>
+    </item>
+    
+    <item>
+      <title>命令行代理</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/proxy/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/proxy/</guid>
+      <description>设置命令行代理 export http_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; export https_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; 取消设置 export http_proxy=&amp;#34;&amp;#34; export https_proxy=&amp;#34;&amp;#34; </description>
     </item>
     
     <item>

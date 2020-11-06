@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rust on 张召付</title>
+    <link>https://zhangzhaofu.github.io/zh-cn/tags/rust/</link>
+    <description>Recent content in rust on 张召付</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/rust/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/rust/</guid>
+      <description>Rust 安装Rust curl &amp;ndash;proto &amp;lsquo;=https&amp;rsquo; &amp;ndash;tlsv1.2 -sSf https://sh.rustup.rs | sh
+设置环境变量 export PATH=$PATH:$HOME/.cargo/bin
+用rustup管理工具链 rustup target list rustup target add x86_64-pc-windows-gnu rustup target add x86_64-apple-darwin
+在Windows中使用gnu工具链 rustup set default-host x86_64-pc-windows-gnu 查看C:\Users\zhangzf.rustup\toolchains\stable-x86_64-pc-windows-gnu\lib\rustlib\x86_64-pc-windows-gnu\bin中gcc的版本 下载mingw-w64对应的版本,并设置环境变量
+cargo cargo update cargo clean cargo build</description>
+    </item>
+    
+  </channel>
+</rss>

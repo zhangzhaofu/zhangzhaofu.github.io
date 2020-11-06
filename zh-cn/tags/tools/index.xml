@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools on 张召付</title>
+    <link>https://zhangzhaofu.github.io/zh-cn/tags/tools/</link>
+    <description>Recent content in tools on 张召付</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>命令行代理</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/proxy/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/proxy/</guid>
+      <description>设置命令行代理 export http_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; export https_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; 取消设置 export http_proxy=&amp;#34;&amp;#34; export https_proxy=&amp;#34;&amp;#34; </description>
+    </item>
+    
+  </channel>
+</rss>

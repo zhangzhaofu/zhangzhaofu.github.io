@@ -6,7 +6,16 @@
     <description>Recent content in qt on 张召付</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/qt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/qt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>qt deploy on linux</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/qt_deploy_on_linux/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/qt_deploy_on_linux/</guid>
+      <description>ls Hoba Hoba.sh lib lnd plugins qml qt.conf Hoba.sh #!/bin/sh appname=`basename $0 | sed s,\.sh$,,` dirname=`dirname $0` tmp=&amp;#34;${dirname#?}&amp;#34; if [ &amp;#34;${dirname%$tmp}&amp;#34; != &amp;#34;/&amp;#34; ]; then dirname=$PWD/$dirname fi LD_LIBRARY_PATH=$dirname/lib export LD_LIBRARY_PATH $dirname/$appname &amp;#34;$@&amp;#34; qt.conf [Paths] Prefix = ./ Plugins = plugins Imports = qml Qml2Imports = qml plugins/ bearer iconengines imageformats platforminputcontexts platforms xcbglintegrations (我是用的linuxdeployqt,生成的。从github上下载源码编译安装。linuxdeployqt Hoab -qml=../../src/pages) qml com QtGraphicalEffects QtQml QtQuick QtQuick.2 (com 是生成二维码的一个工具用到的import模块,https://github.com/toby20130333/qtquickqrencode.git) lib fonts libgrpc++.so.1 libQt5DBus.so.5 libQt5QuickControls2.so.5 libQt5Svg.so.5 libssl.</description>
+    </item>
+    
     <item>
       <title>pyinstaller使用</title>
       <link>https://zhangzhaofu.github.io/zh-cn/posts/pyinstaller/</link>
