@@ -6,7 +6,25 @@
     <description>Recent content in blog on 张召付</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>qt</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/qt/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/qt/</guid>
+      <description>qt qml debug export QT_MESSAGE_PATTERN=&amp;#34;[%{type}] %{appname} (%{file}:%{line}) - %{message}&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>nmap</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/nmap/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/nmap/</guid>
+      <description>nmap brew install nmap 查看远程机器47.102.112.2的端口号 nmap -v -p 1-65535 -sV -O -sS -T4 47.102.112.2 </description>
+    </item>
+    
     <item>
       <title>Bitcoin</title>
       <link>https://zhangzhaofu.github.io/zh-cn/posts/bitcoin_uiinterface/</link>
