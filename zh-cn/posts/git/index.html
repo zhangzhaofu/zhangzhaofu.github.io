@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="zh-cn">
+
+    <meta name="author" content="张召付">
+    <meta name="description" content="git git log 更改时区 git config --global log.date local git svn  install git-svn  sudo apt install git-svn 用法 初始化本地代码库： git svn clone -s svn-repository-url 建立分支，切换，提交，合并等纯git操作 推送到远端Git 仓库中 当前分支和远程SVN同步： git svn rebase 。 当同步SVN时出现冲突，需要手动修改冲突，git add 添加后继续rebase: git svn rebase --continue 或者提交到远端的SVN仓库中，假如你本地是git ， 远端是SVN， git svn dcommit svn和git的工作原理毕竟不同，git对代码提交的非线性特性在svn中难以再现，如果使用了git-merge或者git-pull，再提交到svn，相关分支上的提交历史有可能无法体现在svn上。从svn的使用者的角度，无法辨别这是一个提交还是一次合并，所以在和svn协作过程中，尽量让代码库保持线性。 尽量保持git代码库的线性特征。比如在new_branch分支中，先和master做rebase，再合并到master分支中： git rebase master git checkout master git merge new_branch 然后在master上做dcommit，就可以在svn代码库中看到完整的提交历史 大桥bridge的git-svn git svn clone https://39.100.74.73:9000/svn/A24港珠澳大桥维检机器人/03开发阶段/V10/02软件 bridge git代码管理 rebase git checkout master git pull git checkout local git rebase -i HEAD~2 //合并提交 --- 2表示合并两个 git rebase master----&gt;解决冲突---&gt;git rebase --continue git checkout master git merge local git push ">
+    <meta name="keywords" content="blog,desenvolvedor,pessoal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="git"/>
+<meta name="twitter:description" content="git git log 更改时区 git config --global log.date local git svn  install git-svn  sudo apt install git-svn 用法 初始化本地代码库： git svn clone -s svn-repository-url 建立分支，切换，提交，合并等纯git操作 推送到远端Git 仓库中 当前分支和远程SVN同步： git svn rebase 。 当同步SVN时出现冲突，需要手动修改冲突，git add 添加后继续rebase: git svn rebase --continue 或者提交到远端的SVN仓库中，假如你本地是git ， 远端是SVN， git svn dcommit svn和git的工作原理毕竟不同，git对代码提交的非线性特性在svn中难以再现，如果使用了git-merge或者git-pull，再提交到svn，相关分支上的提交历史有可能无法体现在svn上。从svn的使用者的角度，无法辨别这是一个提交还是一次合并，所以在和svn协作过程中，尽量让代码库保持线性。 尽量保持git代码库的线性特征。比如在new_branch分支中，先和master做rebase，再合并到master分支中： git rebase master git checkout master git merge new_branch 然后在master上做dcommit，就可以在svn代码库中看到完整的提交历史 大桥bridge的git-svn git svn clone https://39.100.74.73:9000/svn/A24港珠澳大桥维检机器人/03开发阶段/V10/02软件 bridge git代码管理 rebase git checkout master git pull git checkout local git rebase -i HEAD~2 //合并提交 --- 2表示合并两个 git rebase master----&gt;解决冲突---&gt;git rebase --continue git checkout master git merge local git push "/>
+
+    <meta property="og:title" content="git" />
+<meta property="og:description" content="git git log 更改时区 git config --global log.date local git svn  install git-svn  sudo apt install git-svn 用法 初始化本地代码库： git svn clone -s svn-repository-url 建立分支，切换，提交，合并等纯git操作 推送到远端Git 仓库中 当前分支和远程SVN同步： git svn rebase 。 当同步SVN时出现冲突，需要手动修改冲突，git add 添加后继续rebase: git svn rebase --continue 或者提交到远端的SVN仓库中，假如你本地是git ， 远端是SVN， git svn dcommit svn和git的工作原理毕竟不同，git对代码提交的非线性特性在svn中难以再现，如果使用了git-merge或者git-pull，再提交到svn，相关分支上的提交历史有可能无法体现在svn上。从svn的使用者的角度，无法辨别这是一个提交还是一次合并，所以在和svn协作过程中，尽量让代码库保持线性。 尽量保持git代码库的线性特征。比如在new_branch分支中，先和master做rebase，再合并到master分支中： git rebase master git checkout master git merge new_branch 然后在master上做dcommit，就可以在svn代码库中看到完整的提交历史 大桥bridge的git-svn git svn clone https://39.100.74.73:9000/svn/A24港珠澳大桥维检机器人/03开发阶段/V10/02软件 bridge git代码管理 rebase git checkout master git pull git checkout local git rebase -i HEAD~2 //合并提交 --- 2表示合并两个 git rebase master----&gt;解决冲突---&gt;git rebase --continue git checkout master git merge local git push " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zhangzhaofu.github.io/zh-cn/posts/git/" />
+<meta property="article:published_time" content="2021-07-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-07-14T00:00:00+00:00" /><meta property="og:site_name" content="张召付" />
+
+
+    <title>
+  git · 张召付
+</title>
+
+    
+      <link rel="canonical" href="https://zhangzhaofu.github.io/zh-cn/posts/git/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.9836c03fe5c87d102278a33e86d0591ef36c89b1e17e8e547ebf84c05cee010e.css" integrity="sha256-mDbAP&#43;XIfRAieKM&#43;htBZHvNsibHhfo5Ufr&#43;EwFzuAQ4=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.717236c74e0a5208ef73964a9f44c6b443b689a95b270d8b2a40d0c012460dac.css" integrity="sha256-cXI2x04KUgjvc5ZKn0TGtEO2ialbJw2LKkDQwBJGDaw=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+      <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    
+
+    <meta name="generator" content="Hugo 0.68.3" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=" twemoji.parse(document.body); "
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/zh-cn">
+      张召付
+    </a>
+    
+      
+        <span id="dark-mode-toggle" class="float-right">
+          <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </span>
+      
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/zh-cn/about/">关于</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/zh-cn/posts/">博客</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/zh-cn/contact/">联系方式</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="https://zhangzhaofu.github.io/en-us/">English</a>
+              </li>
+            
+          
+        
+        
+          <li class="navigation-item separator">
+            <span>|</span>
+          </li>
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">git</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2021-07-14T00:00:00Z'>
+                2021-07-14
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              1 分钟阅读时间
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/zh-cn/categories/tools/">tools</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="/zh-cn/tags/git/">git</a>
+      <span class="separator">•</span>
+    <a href="/zh-cn/tags/tool/">tool</a>
+      <span class="separator">•</span>
+    <a href="/zh-cn/tags/cs/">cs</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <h2 id="git">git</h2>
+<h3 id="git-log-更改时区">git log 更改时区</h3>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git config --global log.date local
+</code></pre></div><h3 id="git-svn">git svn</h3>
+<ul>
+<li>install git-svn</li>
+</ul>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt install git-svn
+</code></pre></div><h3 id="用法">用法</h3>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">初始化本地代码库： git svn clone -s svn-repository-url
+建立分支，切换，提交，合并等纯git操作
+推送到远端Git 仓库中
+当前分支和远程SVN同步： git svn rebase 。 当同步SVN时出现冲突，需要手动修改冲突，git add 添加后继续rebase: git svn rebase --continue
+或者提交到远端的SVN仓库中，假如你本地是git ， 远端是SVN， git svn dcommit
+svn和git的工作原理毕竟不同，git对代码提交的非线性特性在svn中难以再现，如果使用了git-merge或者git-pull，再提交到svn，相关分支上的提交历史有可能无法体现在svn上。从svn的使用者的角度，无法辨别这是一个提交还是一次合并，所以在和svn协作过程中，尽量让代码库保持线性。
+尽量保持git代码库的线性特征。比如在new_branch分支中，先和master做rebase，再合并到master分支中：
+    git rebase master
+    git checkout master
+    git merge new_branch
+然后在master上做dcommit，就可以在svn代码库中看到完整的提交历史
+</code></pre></div><h2 id="大桥bridge的git-svn">大桥bridge的git-svn</h2>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git svn clone https://39.100.74.73:9000/svn/A24港珠澳大桥维检机器人/03开发阶段/V10/02软件 bridge
+</code></pre></div><h2 id="git代码管理-rebase">git代码管理 rebase</h2>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git checkout master
+git pull
+git checkout local
+git rebase -i HEAD~2  //合并提交 --- 2表示合并两个
+git rebase master----&gt;解决冲突---&gt;git rebase --continue
+git checkout master
+git merge local
+git push
+</code></pre></div>
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "zhangzf" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      
+    
+
+    
+
+    
+
+    <script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//analytics.example.com/tracker.js', 'fathom');
+fathom('set', 'siteId', 'ABCDE');
+fathom('trackPageview');
+</script>
+
+
+    <script async defer data-domain="example.com" src="https://analytics.example.com/js/plausible.js"></script>
+
+
+    <script data-goatcounter="https://code.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+  </body>
+
+</html>

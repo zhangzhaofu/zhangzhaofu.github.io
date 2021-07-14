@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>os on 张召付</title>
+    <link>https://zhangzhaofu.github.io/zh-cn/tags/os/</link>
+    <description>Recent content in os on 张召付</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>macOS学习</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/macos/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/macos/</guid>
+      <description>macOS学习 学习推荐 https://www.cnblogs.com/gaozhang12345/p/10818557.html
+https://github.com/DeveloperLx/macOS_Development_Tutorials_translation
+https://sspai.com/post/40060
+create dmg https://github.com/sindresorhus/create-dmg.git
+macOS开发 Objective-C语言, Swift Cocoa库/框架 &amp;lt;深入解析Mac OS X &amp;amp; iOS操作系统&amp;gt; &amp;lt;Objective-C高级编程(iOS与OS X多线程和内存管理)&amp;gt; &amp;lt;Cocoa编程开发者手册&amp;gt; 官方文档 https://developer.apple.com/library/mac/navigation/ XCode开发工具
+https://en.wikibooks.org/wiki/Programming_Mac_OS_X_with_Cocoa_for_Beginners_2nd_Edition
+https://www.jianshu.com/c/299375a4887f
+macOS https://github.com/MacStorm/MacTechnologyOverview https://developer.apple.com/library/archive/navigation/
+组成 Cocoa(Application) Media Core Services Core OS Kernel and Device Drivers
+Cocoa AppKit (在Cocoa层) Foundation (在Core Services层) 实现数据管理、文件访问、进程通知、网络通信 和 其他低层级的功能 Core Data (在 Core Services 层）基于 MVC 设计模式的应用的数据模型。虽然 Core Data 对于应用开发是可选项，但推荐 应用处理大量数据集合时使用
+Cocoa入门，使用Objective-C BSD, Carbon, Cocoa, Java | | | | | +&amp;mdash;&amp;mdash;+&amp;mdash;&amp;ndash;+ | | | Core foundation | | +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;+ | Darwin内核</description>
+    </item>
+    
+    <item>
+      <title>Linux学习</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/linux/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/linux/</guid>
+      <description>Linux学习 开放源代码的，可以自由传播的类Unix操作系统软件
+计算机 硬件 (CPU、主板、内存、硬盘、键盘、鼠标、显示器等) 软件 (操作系统、应用软件等)
+操作系统 文件系统 设备驱动程序 用户接口 系统服务程序
+服务器和PC端 Linux/Unix Windows macOS
+手机端 Android iOS Windows Phone (WP)
+嵌入式 Windows CE Linux &amp;hellip;
+历史 Unix诞生于20世纪60年代末 Windows诞生于20世纪80年代中期 Linux诞生于20世纪90年代初
+Unix - 由肯•汤普森（Ken Thompson）和丹尼斯•里奇（Dennis Ritchie）发明
+批处理操作系统 分时操作系统
+Multics 工程计划目标是开发一种交互式的、具有多道程序处理能力的分时操作系统，以取代当时广泛使用的批处理操作系统。 想一下英文中的前缀 Multi 和 Uni，就明白了 UNIX 的隐意。Multi 是大的意思，大而且繁；而 Uni 是小的意思，小而且巧。这是 UNIX 开发者的设计初衷，这个理念一直影响至今。
+1971-1972 年，肯•汤普森的同事丹尼斯•里奇发明了传说中的C语言，这是一种适合编写系统软件的高级语言 到了 1973 年，UNIX 系统的绝大部分源代码都用C语言进行了重写
+20 世纪 70 年代初，计算机界还有一项伟大的发明——TCP/IP 协议
+这为 UNIX 系统、C语言、TCP/IP 协议的发展拉开了序幕，它们分别在操作系统、编程语言、网络协议这三个领域影响至今
+FreeBSD 源于美国加利福尼亚大学伯克利分校开发的 UNIX 版本 苹果公司的 OS X 就是基于 FreeBSD 的操作系统</description>
+    </item>
+    
+  </channel>
+</rss>

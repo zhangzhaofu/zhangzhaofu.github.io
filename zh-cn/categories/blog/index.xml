@@ -6,14 +6,90 @@
     <description>Recent content in blog on 张召付</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://zhangzhaofu.github.io/zh-cn/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BechHoff-倍福</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/bechhoff/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/bechhoff/</guid>
+      <description>BechHoff-倍福 倍福
+总线： EtherCAT 产品  自动化软件 工业PC I/O 运动控制  </description>
+    </item>
+    
+    <item>
+      <title>ROS</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/ros/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/ros/</guid>
+      <description>ROS 张新宇老师的专栏《机器人操作系统ROS&amp;ndash;史话36篇》
+http://wiki.ros.org/cn/ROS/Tutorials https://answers.ros.org/questions/ http://lists.ros.org/lurker/list/ros-users.en.html
+https://github.com/ros
+catkin  mkdir -p catkin_ws/src  cd catkin_ws/src catkin_init_workspace  catkin_create_pkg test_pkg test_pkg中 include/ 头文件 src/ 源文件 node/ 用于rospy的脚本 launch/ 用于roslaunch的启动文件 msg/ 消息文件 srv/ 服务文件
+ cd catkin_ws catkin_make  source ~/catkin_ws/devel/setup.bash </description>
+    </item>
+    
+    <item>
+      <title>博客</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/blog/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/blog/</guid>
+      <description>博客 记录我的工作，学习，生活，对应3个tag: cs, study, life.</description>
+    </item>
+    
+    <item>
+      <title>book</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/book/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/book/</guid>
+      <description>电子书链接 https://it-ebooks.info/ https://www.oreilly.com/</description>
+    </item>
+    
+    <item>
+      <title>macOS学习</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/macos/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/macos/</guid>
+      <description>macOS学习 学习推荐 https://www.cnblogs.com/gaozhang12345/p/10818557.html
+https://github.com/DeveloperLx/macOS_Development_Tutorials_translation
+https://sspai.com/post/40060
+create dmg https://github.com/sindresorhus/create-dmg.git
+macOS开发 Objective-C语言, Swift Cocoa库/框架 &amp;lt;深入解析Mac OS X &amp;amp; iOS操作系统&amp;gt; &amp;lt;Objective-C高级编程(iOS与OS X多线程和内存管理)&amp;gt; &amp;lt;Cocoa编程开发者手册&amp;gt; 官方文档 https://developer.apple.com/library/mac/navigation/ XCode开发工具
+https://en.wikibooks.org/wiki/Programming_Mac_OS_X_with_Cocoa_for_Beginners_2nd_Edition
+https://www.jianshu.com/c/299375a4887f
+macOS https://github.com/MacStorm/MacTechnologyOverview https://developer.apple.com/library/archive/navigation/
+组成 Cocoa(Application) Media Core Services Core OS Kernel and Device Drivers
+Cocoa AppKit (在Cocoa层) Foundation (在Core Services层) 实现数据管理、文件访问、进程通知、网络通信 和 其他低层级的功能 Core Data (在 Core Services 层）基于 MVC 设计模式的应用的数据模型。虽然 Core Data 对于应用开发是可选项，但推荐 应用处理大量数据集合时使用
+Cocoa入门，使用Objective-C BSD, Carbon, Cocoa, Java | | | | | +&amp;mdash;&amp;mdash;+&amp;mdash;&amp;ndash;+ | | | Core foundation | | +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;+ | Darwin内核</description>
+    </item>
+    
+    <item>
+      <title>学习</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/study/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/study/</guid>
+      <description>boobooke.com (播布客) http://www.boobooke.com/m2/ </description>
+    </item>
+    
     <item>
       <title>qt</title>
       <link>https://zhangzhaofu.github.io/zh-cn/posts/qt/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://zhangzhaofu.github.io/zh-cn/posts/qt/</guid>
-      <description>qt qml debug export QT_MESSAGE_PATTERN=&amp;#34;[%{type}] %{appname} (%{file}:%{line}) - %{message}&amp;#34; </description>
+      <description>qt https://qmlbook.github.io/
+qt qml debug export QT_MESSAGE_PATTERN=&amp;#34;[%{type}] %{appname} (%{file}:%{line}) - %{message}&amp;#34; SciHubEVA (pyside2) https://leovan.me/cn/2018/05/cross-platform-gui-application-based-on-pyqt/ https://github.com/leovan/SciHubEVA.git 音乐播放器 FeelUOwn (pyqt5) http://cosven.me/blogs/57 https://github.com/feeluown/FeelUOwn qt经验 https://gitee.com/feiyangqingyun/qtkaifajingyan web https://juejin.cn/post/6844903906053455879
+qt6 python3 -m venv env source env/bin/activate pip install pyside6
+import PySide6 print(PySide6.__version__) </description>
     </item>
     
     <item>
@@ -23,6 +99,30 @@
       
       <guid>https://zhangzhaofu.github.io/zh-cn/posts/nmap/</guid>
       <description>nmap brew install nmap 查看远程机器47.102.112.2的端口号 nmap -v -p 1-65535 -sV -O -sS -T4 47.102.112.2 </description>
+    </item>
+    
+    <item>
+      <title>nodejs学习</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/nodejs/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/nodejs/</guid>
+      <description>nodejs https://www.nodebeginner.org/index-zh-cn.html</description>
+    </item>
+    
+    <item>
+      <title>编程随想</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/program_think/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/program_think/</guid>
+      <description>编程随想 由编程随想的博客看到的其他网站 https://botanwang.com/ https://chinadigitaltimes.net/chinese/ https://www.rfa.org/cantonese
+自己喜欢的一个博客: 编程随想
+学习能力 学习动机
+学习 主动学习 被动学习
+学习力的提高 自身的素质（比如兴趣、意志力、个人习惯。。。） 方法论
+根据心理学的研究，大部分人的性格、兴趣、气质等因素，大都形成于20岁左右之前。在20岁左右之后，一般不会有太大的改变
+优秀 兴趣 自学能力 设定个人发展目标和计划 做正确的事 正确地做事</description>
     </item>
     
     <item>
@@ -40,7 +140,7 @@
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://zhangzhaofu.github.io/zh-cn/posts/docker/</guid>
-      <description>Install sudo apt install docker.io Get Ubuntu16.04 image sudo docker pull ubuntu:16.04 Start ubuntu16.04 and make /home/zhangzf/Workspace to docker&amp;rsquo;s /Workspace sudo docker run -it -v /home/zhangzf/Workspace:/Workspace ubuntu:16.04 /bin/bash Create user: &amp;lsquo;zhangzf&amp;rsquo; Install sudo, make &amp;lsquo;zhangzf&amp;rsquo; into sudoer su - zhangzf 查看所有的容器 sudo docker container ls -a 运行一个已有的容器 sudo docker start 81414ed72371 sudo docker attach 81414ed72371 把容器打包成镜像 sudo docker commit 81414ed72371 hoba-desktop:init 查看已有的镜像 sudo docker image ls Docker Hub my id is doubledog change tag sudo docker tag hoba-desktop:init doubledog/hoba-desktop:init 登陆自己的docker hub sudo docker login push sudo docker push doubledog/hoba-desktop:init </description>
+      <description>Docker Install sudo apt install docker.io Get Ubuntu16.04 image sudo docker pull ubuntu:16.04 Start ubuntu16.04 and make /home/zhangzf/Workspace to docker&amp;rsquo;s /Workspace sudo docker run -it -v /home/zhangzf/Workspace:/Workspace ubuntu:16.04 /bin/bash Create user: &amp;lsquo;zhangzf&amp;rsquo; Install sudo, make &amp;lsquo;zhangzf&amp;rsquo; into sudoer su - zhangzf 查看所有的容器 sudo docker container ls -a 运行一个已有的容器 sudo docker start 81414ed72371 sudo docker attach 81414ed72371 把容器打包成镜像 sudo docker commit 81414ed72371 hoba-desktop:init 查看已有的镜像 sudo docker image ls Docker Hub my id is doubledog change tag sudo docker tag hoba-desktop:init doubledog/hoba-desktop:init 登陆自己的docker hub sudo docker login push sudo docker push doubledog/hoba-desktop:init </description>
     </item>
     
     <item>
@@ -49,7 +149,7 @@
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://zhangzhaofu.github.io/zh-cn/posts/qt_deploy_on_linux/</guid>
-      <description>ls Hoba Hoba.sh lib lnd plugins qml qt.conf Hoba.sh #!/bin/sh appname=`basename $0 | sed s,\.sh$,,` dirname=`dirname $0` tmp=&amp;#34;${dirname#?}&amp;#34; if [ &amp;#34;${dirname%$tmp}&amp;#34; != &amp;#34;/&amp;#34; ]; then dirname=$PWD/$dirname fi LD_LIBRARY_PATH=$dirname/lib export LD_LIBRARY_PATH $dirname/$appname &amp;#34;$@&amp;#34; qt.conf [Paths] Prefix = ./ Plugins = plugins Imports = qml Qml2Imports = qml plugins/ bearer iconengines imageformats platforminputcontexts platforms xcbglintegrations (我是用的linuxdeployqt,生成的。从github上下载源码编译安装。linuxdeployqt Hoab -qml=../../src/pages) qml com QtGraphicalEffects QtQml QtQuick QtQuick.2 (com 是生成二维码的一个工具用到的import模块,https://github.com/toby20130333/qtquickqrencode.git) lib fonts libgrpc++.so.1 libQt5DBus.so.5 libQt5QuickControls2.so.5 libQt5Svg.so.5 libssl.</description>
+      <description>qt deploy on linux ls Hoba Hoba.sh lib lnd plugins qml qt.conf Hoba.sh #!/bin/sh appname=`basename $0 | sed s,\.sh$,,` dirname=`dirname $0` tmp=&amp;#34;${dirname#?}&amp;#34; if [ &amp;#34;${dirname%$tmp}&amp;#34; != &amp;#34;/&amp;#34; ]; then dirname=$PWD/$dirname fi LD_LIBRARY_PATH=$dirname/lib export LD_LIBRARY_PATH $dirname/$appname &amp;#34;$@&amp;#34; qt.conf [Paths] Prefix = ./ Plugins = plugins Imports = qml Qml2Imports = qml plugins/ bearer iconengines imageformats platforminputcontexts platforms xcbglintegrations (我是用的linuxdeployqt,生成的。从github上下载源码编译安装。linuxdeployqt Hoab -qml=../../src/pages) qml com QtGraphicalEffects QtQml QtQuick QtQuick.2 (com 是生成二维码的一个工具用到的import模块,https://github.com/toby20130333/qtquickqrencode.git) lib fonts libgrpc++.</description>
     </item>
     
     <item>
@@ -62,7 +162,11 @@
 设置环境变量 export PATH=$PATH:$HOME/.cargo/bin
 用rustup管理工具链 rustup target list rustup target add x86_64-pc-windows-gnu rustup target add x86_64-apple-darwin
 在Windows中使用gnu工具链 rustup set default-host x86_64-pc-windows-gnu 查看C:\Users\zhangzf.rustup\toolchains\stable-x86_64-pc-windows-gnu\lib\rustlib\x86_64-pc-windows-gnu\bin中gcc的版本 下载mingw-w64对应的版本,并设置环境变量
-cargo cargo update cargo clean cargo build</description>
+cargo cargo update cargo clean cargo build
+数据类型  标量类型 (scalar) 复合类型 (compound)  标量类型
+ 整型 浮点型 布尔类型 字符类型  整型
+ i8 u8 i16 u16 i32 u32 i64 u64 i128 u128 isize usize  浮点型
+ f32 f64  布尔类型</description>
     </item>
     
     <item>
@@ -71,8 +175,17 @@ cargo cargo update cargo clean cargo build</description>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://zhangzhaofu.github.io/zh-cn/posts/sum/</guid>
-      <description>文件校验 网上下载很多文件，都会提供md5或者SHA256校验，防止文件内容被篡改，文件下载到本地后，我们可以对文件进行校验。
+      <description>sum校验 文件校验 网上下载很多文件，都会提供md5或者SHA256校验，防止文件内容被篡改，文件下载到本地后，我们可以对文件进行校验。
 文件MD5、SHA1、SHA256校验 2f6c38be914b756fde482fff83064d37 test.txt // md5sum test.txt 228dfdb10e9ad6fdf5ca97f402355df1952112fe test.txt // shasum -a 1 test.tx d8a0785f3ce124ee8c79c172eefdc6989141aafaf9deab2dac8437ed5e60f5c4 test.txt // shasum -a 256 test.txt </description>
+    </item>
+    
+    <item>
+      <title>区块链</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/blockchain/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/blockchain/</guid>
+      <description>区块链 https://learnblockchain.cn/</description>
     </item>
     
     <item>
@@ -81,7 +194,29 @@ cargo cargo update cargo clean cargo build</description>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://zhangzhaofu.github.io/zh-cn/posts/proxy/</guid>
-      <description>设置命令行代理 export http_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; export https_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; 取消设置 export http_proxy=&amp;#34;&amp;#34; export https_proxy=&amp;#34;&amp;#34; </description>
+      <description>翻墙  购买VPS, 安装openvpn 购买收费vpn, ExpressVPN, Lantern 使用免费vpn, Lantern, 无界, 赛风  命令行代理 export http_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; export https_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; export http_proxy=&amp;#34;&amp;#34; export https_proxy=&amp;#34;&amp;#34; alias sethttpproxy=&amp;#39;export http_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; &amp;amp;&amp;amp; export https_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34;&amp;#39; alias unsethttpproxy=&amp;#39;export http_proxy=&amp;#34;&amp;#34; &amp;amp;&amp;amp; export https_proxy=&amp;#34;&amp;#34;&amp;#39; </description>
+    </item>
+    
+    <item>
+      <title>韦东山</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/100ask/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/100ask/</guid>
+      <description>韦东山 在一个复杂的系统中，操作系统是大脑，单片机可以实现手指等功能 在技术方面：如果掌握了linux的bootloader, 那么C51，STM32是小菜一碟
+不要使用老一套办法来学习单片机 不要使用C51， STM32专用开发板 不要使用keil, MDK等集成度太高的软件
+嵌入式Linux的组成 bootloader linux kernel 内核 rootfs 根文件系统 app 应用程序
+bootloader 读出内核 初始化时钟 初始化内存 设置网卡 读取flash/sd卡的能力 显示logo,操作lcd的能力
+bootloader太复杂，怎么学习 -&amp;gt; 写出单独的程序 LED 时钟 网卡 Flash
+内核 也要有操作硬件的能力
+简单驱动程序框架 APP: 调用read, write等标准接口访问硬件 驱动: drv_open, drv_read
+驱动程序 = 软件框架 + 硬件能力
+硬件操作 看原理图 看芯片手册 知道怎么去读写寄存器
+硬件操作可以现在单片机中学习
+如何学习单片机 -&amp;gt; 为后续的Linux打基础 选择什么开发板 使用什么开发工具
+bootloader -&amp;gt; kernel/driver -&amp;gt; app (有界面qt, android， 无界面)
+开发板选择原则 -&amp;gt; 资料丰富
+开发板芯片 三星 s3c2440 s3c6410 s5pv210 exynos4412</description>
     </item>
     
     <item>
@@ -115,12 +250,105 @@ Python 路线 https://www.ituring.com.cn/article/509718</description>
     </item>
     
     <item>
-      <title>车险</title>
-      <link>https://zhangzhaofu.github.io/zh-cn/posts/car_-insurance/</link>
+      <title>C&#43;&#43;语言</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/c&#43;&#43;/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zhangzhaofu.github.io/zh-cn/posts/car_-insurance/</guid>
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/c&#43;&#43;/</guid>
+      <description>C++ 链接 http://c.biancheng.net/cplus/ http://www.cplusplus.com/ https://en.cppreference.com/
+书籍 C++ Primer Effective C++ C++标准库 STL源码剖析 深度探索C++对象模型</description>
+    </item>
+    
+    <item>
+      <title>C语言</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/c/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/c/</guid>
+      <description>C https://akaedu.github.io/book/
+https://blog.csdn.net/thisway_diy/article/details/82425242
+书籍  Linux C编程一站式学习 (作者宋劲杉) C和指针 C陷阱与缺陷  视频：  郝斌C语言  数据结构推荐视频： 1、郝斌数据结构 2、浙江大学 陈越教授： https://www.bilibili.com/video/av18586085/?spm_id_from=trigger_reload
+《大话数据结构》作者: 程杰
+数据结构与算法分析 作者: [美] Mark Allen Weiss 译者: 冯舜玺
+嵌入式Linux应用开发完全手册》作者：韦东山 《ARM体系结构与编程（第2版）》作者：杜春雷
+《Linux设备驱动》第三版 作者: 科波特 译者: 魏永明 / 耿岳 / 钟书毅
+《Linux设备驱动开发详解》作者宋宝华 最新版的有点问题，建议看第二版，
+《linux内核完全注释》作者 赵炯 本书介绍 linux 0.11，可能只有一万多行代码，但是五脏俱全，包括了操作系统中涉及的基本内容。最为经典的是开头的一些基本介绍（如makefile，80386的保护模式，内存寻址等等），知道了这些才能深入学习下去。
+《Linux内核情景分析》作者毛德操 / 胡希明 经典好书，上下两册近1600页，厚，别指望一下子读完。 某一块不清楚时，就去翻一下它
+《UNIX环境高级编程》(第3版) 作者：作者: 史蒂文斯 (W.Richard Stevens) / 拉戈 (Stephen A.Rago) 译者: 戚正伟 / 张亚英 / 尤晋元
+《UNIX网络编程（第3版）》 作者: 史蒂文斯 / 芬纳 / 鲁道夫 译者: 杨继张 socket编程的辞海式书籍 - 堪称经典。</description>
+    </item>
+    
+    <item>
+      <title>Electron</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/electron/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/electron/</guid>
+      <description>electron 极客时间 https://time.geekbang.org/learning/path-detail/2 https://time.geekbang.org/course/detail/100044201-187014 https://github.com/dengyaolong/geektime-electron
+豆瓣阅读 Electron实战：入门、进阶与性能优化 https://read.douban.com/ebook/145633362/
+卧梅又闻花 https://mp.weixin.qq.com/s/24SiiGZQSlFQKkYMLTX9dg
+ConardLi的blog http://www.conardli.top/blog/ https://github.com/ConardLi/electron-react
+技术胖 https://jspang.com/detailed?id=62
+安装yarn curl -o- -L https://yarnpkg.com/install.sh | bash electron安装过程 先下载安装nodejs npm install -g electron 安装最新版 npm install electron@latest
+npm和npx区别 npm是一个node package安装工具。 npx的作用是先检查本地有没有安装某个package，如果没有去远程registry找，找到的话直接使用，不用下载到本地node-modules包里面，这样就能优化本地项目的大小，也可以避免安装package到全局。</description>
+    </item>
+    
+    <item>
+      <title>桌面软件开发技术</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/desktop/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/desktop/</guid>
+      <description>桌面软件开发技术 桌面操作系统 Windows xp, win7, win10 Mac OS X (macOS) Linux发行版 Redhat系 RHEL, CentOS, Fedora Debian系 Debian, Ubuntu, Raspberry Pi OS 其他
+开发方式 使用原生接口开发 使用web技术开发
+Windows下开发技术 在windows下开发技术的变化主要分为两部分，以.Net技术为分水岭，分为.Net出现之前及.Net出现之后
+.Net出现之前 编写 Windows 上可以运行的程序就要直接和系统API交互,或者封装好的框架。主要技术是Win32核心编程，MFC编程。主要的开发语言是C/C++
+.Net出现之后 .NET 框架是由微软开发的软件开发平台，其最主要的两个组成部分是公共语言运行时 (CLR) 和框架类库 (FCL)， 开发语言主要为C#
+2002年 - .NET1.0 2002 年微软推出了 .NET Framework 1.0，相应地 Visual Studio 也升级到 7，称为 Visual Studio 2002 上一个版本叫做 Visual Studio 6） 该框架包括 C# 和 VB.NET（ Visual Basic 的继任者） 同时，第一个版本的 ASP.NET 也在 .NET Framework 1.0 亮相，它作为网站的解决方案，一直是 .</description>
+    </item>
+    
+    <item>
+      <title>计算机</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/cs/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/cs/</guid>
+      <description>cs 基础 数据结构和算法 计算机网络 操作系统 编译原理 设计模式
+书籍   大话数据结构
+  算法
+  剑指offer
+  LeetCode刷题
+  TCP/IP详解
+  深入理解计算机系统
+  大话设计模式
+  设计模式之禅
+  学习顺序   Linux操作系统的使用 鸟哥的Linux私房菜
+  Linux环境编程 Unix环境高级编程 Linux高性能服务器编程 POSIX多线程程序设计
+  https://www.kancloud.cn/luofei614/programmer_talk_life/137939
+编程 操作系统和底层服务开发 桌面端应用开发 浏览器端应用开发 移动客户端应用开发 后端业务逻辑开发
+职业方向 后端 Web前端 原生移动 底层 缓存服务、队列服务、全文检索服务 游戏 智能硬件(嵌入式) 其他(运维,测试)
+https://www.zhihu.com/question/40819195</description>
+    </item>
+    
+    <item>
+      <title>车险</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/car_insurance/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/car_insurance/</guid>
       <description>车险  第一年，太平洋，4780.16 第二年，平安, 3333.13 - 508 - 80  详细 </description>
+    </item>
+    
+    <item>
+      <title>web学习</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/web/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/web/</guid>
+      <description>web技术 https://www.runoob.com/w3cnote/web-10-years.html https://www.tianmaying.com/tutorial/web-history https://lushunjian.github.io/blog/2019/01/21/web%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF%E7%9A%84%E6%BC%94%E5%8F%98/ https://www.itsource.cn/web/news/1892.html https://iclient.supermap.io/dev/web/books/modern-web-gis-in-action/
+web安全 https://websec.readthedocs.io/zh/latest/basic/history.html
+学习路线 https://juejin.cn/post/6891430301525311502</description>
     </item>
     
     <item>
@@ -134,6 +362,89 @@ Python 路线 https://www.ituring.com.cn/article/509718</description>
  东丽区先锋路13号 (022)24390434  户口页
  先锋东路17号，东丽区人才资源和社会保障局 (022)24982923  身份证
  东丽开发区一经路30号，人口管理服务中心 (022)24981763  </description>
+    </item>
+    
+    <item>
+      <title>JavaScript教程</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/javascript/</link>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/javascript/</guid>
+      <description>数据类型 布尔 (Boolean) 数字 (Number) 字符串 (String) 数组 (Array) 对象 (Object) 空 (Null) 未定义 (Undefined)
+在 JavaScript 中有 5 种不同的数据类型：
+string number boolean object function  3 种对象类型：
+Object Date Array  2 个不包含任何值的数据类型：
+null undefined  你可以使用 typeof 操作符来查看 JavaScript 变量的数据类型。
+constructor 属性返回所有 JavaScript 变量的构造函数。
+声明（创建）变量 var name; name = &amp;#34;hello&amp;#34;; 或者
+var name = &amp;#34;hello&amp;#34;; undefined 未使用值来声明的变量，其值实际上是 undefined。
+var name; // name的值是undefined 重新声明 JavaScript 变量 如果重新声明 JavaScript 变量，该变量的值不会丢失： 在以下两条语句执行后，变量 carname 的值依然是 &amp;ldquo;Volvo&amp;rdquo;：</description>
+    </item>
+    
+    <item>
+      <title>Raspberry</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/raspberry/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/raspberry/</guid>
+      <description>初始设置 用户名: pi 密码: raspberry
+查看型号 cat /proc/device-tree/model 我的查出来的结果是Raspberry Pi 3 Model B Rev 1.2 查看32位还是64位 getconf LONG_BIT 配置树莓派 很多配置可以进入 sudo raspi-config, 进行配置 添加wifi vi /etc/wpa_supplicant/wpa_supplicant.conf network={ ssid=&amp;#34;CU_6USt&amp;#34; psk=&amp;#34;6ust1qyd&amp;#34; key_mgmt=WPA-PSK priority=1 } 设置git服务器 添加git用户 sudo useradd git cd /home sudo mkdir git sudo chown git:git git sudo password git git仓库 git的家目录里,ssh-keygen cd .ssh vi authorized_keys, 添加其他电脑的~/.ssh/id_rsa.pub里的内容 cd ~git mkdir test.git cd test.git git init --bare 其他电脑clone git clone git@192.168.1.106:test.git </description>
+    </item>
+    
+    <item>
+      <title>Go学习</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/go/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/go/</guid>
+      <description>Go学习 设置国内代理 vi ~/.zshrc export GO111MODULE=on export GOPROXY=&amp;quot;https://goproxy.cn,direct&amp;rdquo;
+测试是否安装成功: time go get golang.org/x/tour
+Go学习资料 c语言编程网 Go语言中文网 Go语言圣经 Go语言高级编程 李文周的博客 Go语言101 Go语言设计与实现 Go语言原本
+帮助文档 go help aSubCommand go doc fmt.Printf godoc -http=localhost:6060
+编译go源码 ./src/make.bash 编译运行程序 go run . go子命令 (运行不带参数的go命令将会列出所有支持的go子命令) go run go build go install go fmt go test go doc go mod</description>
+    </item>
+    
+    <item>
+      <title>Linux学习</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/linux/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/linux/</guid>
+      <description>Linux学习 开放源代码的，可以自由传播的类Unix操作系统软件
+计算机 硬件 (CPU、主板、内存、硬盘、键盘、鼠标、显示器等) 软件 (操作系统、应用软件等)
+操作系统 文件系统 设备驱动程序 用户接口 系统服务程序
+服务器和PC端 Linux/Unix Windows macOS
+手机端 Android iOS Windows Phone (WP)
+嵌入式 Windows CE Linux &amp;hellip;
+历史 Unix诞生于20世纪60年代末 Windows诞生于20世纪80年代中期 Linux诞生于20世纪90年代初
+Unix - 由肯•汤普森（Ken Thompson）和丹尼斯•里奇（Dennis Ritchie）发明
+批处理操作系统 分时操作系统
+Multics 工程计划目标是开发一种交互式的、具有多道程序处理能力的分时操作系统，以取代当时广泛使用的批处理操作系统。 想一下英文中的前缀 Multi 和 Uni，就明白了 UNIX 的隐意。Multi 是大的意思，大而且繁；而 Uni 是小的意思，小而且巧。这是 UNIX 开发者的设计初衷，这个理念一直影响至今。
+1971-1972 年，肯•汤普森的同事丹尼斯•里奇发明了传说中的C语言，这是一种适合编写系统软件的高级语言 到了 1973 年，UNIX 系统的绝大部分源代码都用C语言进行了重写
+20 世纪 70 年代初，计算机界还有一项伟大的发明——TCP/IP 协议
+这为 UNIX 系统、C语言、TCP/IP 协议的发展拉开了序幕，它们分别在操作系统、编程语言、网络协议这三个领域影响至今
+FreeBSD 源于美国加利福尼亚大学伯克利分校开发的 UNIX 版本 苹果公司的 OS X 就是基于 FreeBSD 的操作系统</description>
+    </item>
+    
+    <item>
+      <title>黑客</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/hacker/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/hacker/</guid>
+      <description>黑客 https://zhuanlan.zhihu.com/p/47490506 https://blog.knownsec.com/Knownsec_RD_Checklist/index.html</description>
+    </item>
+    
+    <item>
+      <title>pyinstaller使用</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/pyinstaller/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/pyinstaller/</guid>
+      <description>pyinstaller部署pyqt5开发的程序demo 可以查看hello_pyinstaller
+使用python3.8在mac中遇到的问题, TypeError: an integer is required (got type bytes) when compiling any script 解决办法：
+pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz  Pyinstaller -F setup.py 打包exe Pyinstaller -F -w setup.py 不带控制台的打包 Pyinstaller -F -i xx.ico setup.py 打包指定exe图标打包 平常我们只需要这三个就好了，足够满足所有需求了。
+pyinstaller -D setup.py 打包成一个文件夹里 -D和-F选项区别 -F选项应该是对-D选项操作后进行了一次压缩，压缩成了一个单独执行程序，每次启动的时候会比较慢，推荐-D打包方式</description>
     </item>
     
     <item>

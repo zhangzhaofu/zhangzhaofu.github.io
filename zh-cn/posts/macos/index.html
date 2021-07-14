@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="zh-cn">
+
+    <meta name="author" content="张召付">
+    <meta name="description" content="macOS学习 学习推荐 https://www.cnblogs.com/gaozhang12345/p/10818557.html
+https://github.com/DeveloperLx/macOS_Development_Tutorials_translation
+https://sspai.com/post/40060
+create dmg https://github.com/sindresorhus/create-dmg.git
+macOS开发 Objective-C语言, Swift Cocoa库/框架 &lt;深入解析Mac OS X &amp; iOS操作系统&gt; &lt;Objective-C高级编程(iOS与OS X多线程和内存管理)&gt; &lt;Cocoa编程开发者手册&gt; 官方文档 https://developer.apple.com/library/mac/navigation/ XCode开发工具
+https://en.wikibooks.org/wiki/Programming_Mac_OS_X_with_Cocoa_for_Beginners_2nd_Edition
+https://www.jianshu.com/c/299375a4887f
+macOS https://github.com/MacStorm/MacTechnologyOverview https://developer.apple.com/library/archive/navigation/
+组成 Cocoa(Application) Media Core Services Core OS Kernel and Device Drivers
+Cocoa AppKit (在Cocoa层) Foundation (在Core Services层) 实现数据管理、文件访问、进程通知、网络通信 和 其他低层级的功能 Core Data (在 Core Services 层）基于 MVC 设计模式的应用的数据模型。虽然 Core Data 对于应用开发是可选项，但推荐 应用处理大量数据集合时使用
+Cocoa入门，使用Objective-C BSD, Carbon, Cocoa, Java | | | | | &#43;&mdash;&mdash;&#43;&mdash;&ndash;&#43; | | | Core foundation | | &#43;&mdash;&mdash;&mdash;&mdash;&ndash;&#43; | Darwin内核">
+    <meta name="keywords" content="blog,desenvolvedor,pessoal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="macOS学习"/>
+<meta name="twitter:description" content="macOS学习 学习推荐 https://www.cnblogs.com/gaozhang12345/p/10818557.html
+https://github.com/DeveloperLx/macOS_Development_Tutorials_translation
+https://sspai.com/post/40060
+create dmg https://github.com/sindresorhus/create-dmg.git
+macOS开发 Objective-C语言, Swift Cocoa库/框架 &lt;深入解析Mac OS X &amp; iOS操作系统&gt; &lt;Objective-C高级编程(iOS与OS X多线程和内存管理)&gt; &lt;Cocoa编程开发者手册&gt; 官方文档 https://developer.apple.com/library/mac/navigation/ XCode开发工具
+https://en.wikibooks.org/wiki/Programming_Mac_OS_X_with_Cocoa_for_Beginners_2nd_Edition
+https://www.jianshu.com/c/299375a4887f
+macOS https://github.com/MacStorm/MacTechnologyOverview https://developer.apple.com/library/archive/navigation/
+组成 Cocoa(Application) Media Core Services Core OS Kernel and Device Drivers
+Cocoa AppKit (在Cocoa层) Foundation (在Core Services层) 实现数据管理、文件访问、进程通知、网络通信 和 其他低层级的功能 Core Data (在 Core Services 层）基于 MVC 设计模式的应用的数据模型。虽然 Core Data 对于应用开发是可选项，但推荐 应用处理大量数据集合时使用
+Cocoa入门，使用Objective-C BSD, Carbon, Cocoa, Java | | | | | &#43;&mdash;&mdash;&#43;&mdash;&ndash;&#43; | | | Core foundation | | &#43;&mdash;&mdash;&mdash;&mdash;&ndash;&#43; | Darwin内核"/>
+
+    <meta property="og:title" content="macOS学习" />
+<meta property="og:description" content="macOS学习 学习推荐 https://www.cnblogs.com/gaozhang12345/p/10818557.html
+https://github.com/DeveloperLx/macOS_Development_Tutorials_translation
+https://sspai.com/post/40060
+create dmg https://github.com/sindresorhus/create-dmg.git
+macOS开发 Objective-C语言, Swift Cocoa库/框架 &lt;深入解析Mac OS X &amp; iOS操作系统&gt; &lt;Objective-C高级编程(iOS与OS X多线程和内存管理)&gt; &lt;Cocoa编程开发者手册&gt; 官方文档 https://developer.apple.com/library/mac/navigation/ XCode开发工具
+https://en.wikibooks.org/wiki/Programming_Mac_OS_X_with_Cocoa_for_Beginners_2nd_Edition
+https://www.jianshu.com/c/299375a4887f
+macOS https://github.com/MacStorm/MacTechnologyOverview https://developer.apple.com/library/archive/navigation/
+组成 Cocoa(Application) Media Core Services Core OS Kernel and Device Drivers
+Cocoa AppKit (在Cocoa层) Foundation (在Core Services层) 实现数据管理、文件访问、进程通知、网络通信 和 其他低层级的功能 Core Data (在 Core Services 层）基于 MVC 设计模式的应用的数据模型。虽然 Core Data 对于应用开发是可选项，但推荐 应用处理大量数据集合时使用
+Cocoa入门，使用Objective-C BSD, Carbon, Cocoa, Java | | | | | &#43;&mdash;&mdash;&#43;&mdash;&ndash;&#43; | | | Core foundation | | &#43;&mdash;&mdash;&mdash;&mdash;&ndash;&#43; | Darwin内核" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zhangzhaofu.github.io/zh-cn/posts/macos/" />
+<meta property="article:published_time" content="2020-11-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-11-12T00:00:00+00:00" /><meta property="og:site_name" content="张召付" />
+
+
+    <title>
+  macOS学习 · 张召付
+</title>
+
+    
+      <link rel="canonical" href="https://zhangzhaofu.github.io/zh-cn/posts/macos/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.9836c03fe5c87d102278a33e86d0591ef36c89b1e17e8e547ebf84c05cee010e.css" integrity="sha256-mDbAP&#43;XIfRAieKM&#43;htBZHvNsibHhfo5Ufr&#43;EwFzuAQ4=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.717236c74e0a5208ef73964a9f44c6b443b689a95b270d8b2a40d0c012460dac.css" integrity="sha256-cXI2x04KUgjvc5ZKn0TGtEO2ialbJw2LKkDQwBJGDaw=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+      <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    
+
+    <meta name="generator" content="Hugo 0.68.3" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=" twemoji.parse(document.body); "
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/zh-cn">
+      张召付
+    </a>
+    
+      
+        <span id="dark-mode-toggle" class="float-right">
+          <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </span>
+      
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/zh-cn/about/">关于</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/zh-cn/posts/">博客</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/zh-cn/contact/">联系方式</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="https://zhangzhaofu.github.io/en-us/">English</a>
+              </li>
+            
+          
+        
+        
+          <li class="navigation-item separator">
+            <span>|</span>
+          </li>
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">macOS学习</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2020-11-12T00:00:00Z'>
+                2020-11-12
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              1 分钟阅读时间
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/zh-cn/categories/blog/">blog</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="/zh-cn/tags/macos/">macos</a>
+      <span class="separator">•</span>
+    <a href="/zh-cn/tags/os/">os</a>
+      <span class="separator">•</span>
+    <a href="/zh-cn/tags/cs/">cs</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <h1 id="macos学习">macOS学习</h1>
+<h2 id="学习推荐">学习推荐</h2>
+<p><a href="https://www.cnblogs.com/gaozhang12345/p/10818557.html">https://www.cnblogs.com/gaozhang12345/p/10818557.html</a></p>
+<p><a href="https://github.com/DeveloperLx/macOS_Development_Tutorials_translation">https://github.com/DeveloperLx/macOS_Development_Tutorials_translation</a></p>
+<p><a href="https://sspai.com/post/40060">https://sspai.com/post/40060</a></p>
+<h2 id="create-dmg">create dmg</h2>
+<p><a href="https://github.com/sindresorhus/create-dmg.git">https://github.com/sindresorhus/create-dmg.git</a></p>
+<h2 id="macos开发">macOS开发</h2>
+<p>Objective-C语言, Swift
+Cocoa库/框架
+&lt;深入解析Mac OS X &amp; iOS操作系统&gt; &lt;Objective-C高级编程(iOS与OS X多线程和内存管理)&gt; &lt;Cocoa编程开发者手册&gt;
+官方文档
+<a href="https://developer.apple.com/library/mac/navigation/">https://developer.apple.com/library/mac/navigation/</a>
+XCode开发工具</p>
+<p><a href="https://en.wikibooks.org/wiki/Programming_Mac_OS_X_with_Cocoa_for_Beginners_2nd_Edition">https://en.wikibooks.org/wiki/Programming_Mac_OS_X_with_Cocoa_for_Beginners_2nd_Edition</a></p>
+<p><a href="https://www.jianshu.com/c/299375a4887f">https://www.jianshu.com/c/299375a4887f</a></p>
+<h2 id="macos">macOS</h2>
+<p><a href="https://github.com/MacStorm/MacTechnologyOverview">https://github.com/MacStorm/MacTechnologyOverview</a>
+<a href="https://developer.apple.com/library/archive/navigation/">https://developer.apple.com/library/archive/navigation/</a></p>
+<p>组成
+Cocoa(Application)
+Media
+Core Services
+Core OS
+Kernel and Device Drivers</p>
+<p>Cocoa
+AppKit (在Cocoa层)
+Foundation (在Core Services层) 实现数据管理、文件访问、进程通知、网络通信 和 其他低层级的功能
+Core Data (在 Core Services 层）基于 MVC 设计模式的应用的数据模型。虽然 Core Data 对于应用开发是可选项，但推荐 应用处理大量数据集合时使用</p>
+<h2 id="cocoa入门使用objective-c">Cocoa入门，使用Objective-C</h2>
+<p>BSD, Carbon, Cocoa, Java
+|       |      |     |
+|       +&mdash;&mdash;+&mdash;&ndash;+
+|              |
+|              Core foundation
+|              |
++&mdash;&mdash;&mdash;&mdash;&ndash;+
+|
+Darwin内核</p>
+<p>Cocoa框架
+Cocoa AppKit
+Cocoa Foundation
+Core Foundation
+kernel</p>
+<p>Cocoa Foundation
+根对象类 NSObject
+表示基本数据类型的类，如字符串和字节数组
+存储其他对象的集合类
+表述系统信息和服务的类</p>
+<p>Cocoa AppKit
+用户界面
+窗口(windows)
+提供放置视图的空间
+接受并给适当的视图分发用户操作的鼠标和键盘事件
+视图(views)
+对窗口中所有显示对象的一个抽象表示
+面板(panels)
+面板实际上是一种窗口，用来显示临时、或全局、或重要的信息
+控件
+widgets部件
+功能集合
+文本
+可以输入到简单的文本框或更大的文本视图中
+字体
+图像
+将图形数据封装，使用户可以轻松便捷地访问保存在磁盘文件中的图像，将其显示在屏幕上
+颜色
+应用程序工具
+文档体系结构
+通常开发的应用程序很多都是基于文档的
+粘贴板
+拖拽
+打印
+文件系统访问
+拼写检查</p>
+<p>Objective-C</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">//
+//  main.m
+//  hello
+//
+//  Created by 张召付 on 2020/12/16.
+//
+
+#import &lt;Foundation/Foundation.h&gt;
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        // insert code here...
+        NSLog(@&#34;Hello, World!&#34;);
+    }
+    return 0;
+}
+</code></pre></div><p>clang -framework Foundation main.m
+clang -fobjc-arc -framework Foundation main.m</p>
+<p>过程化编程注重数据和功能之间的交互
+面向对象编程注重对象的设计及对象间的交互</p>
+<p><a href="https://zhi-ming-zhang.gitbooks.io/macos/content/">https://zhi-ming-zhang.gitbooks.io/macos/content/</a>
+<a href="https://www.jianshu.com/p/c79ff411e983">https://www.jianshu.com/p/c79ff411e983</a></p>
+<p>Cocoa
+Foundation框架 (Foundation框架包含所有和界面显示无关的类。)
+Application Kit（AppKit）框架 (Application Kit 框架包含实现图形的、事件驱动的用户界面需要的所有对象)</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "zhangzf" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      
+    
+
+    
+
+    
+
+    <script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//analytics.example.com/tracker.js', 'fathom');
+fathom('set', 'siteId', 'ABCDE');
+fathom('trackPageview');
+</script>
+
+
+    <script async defer data-domain="example.com" src="https://analytics.example.com/js/plausible.js"></script>
+
+
+    <script data-goatcounter="https://code.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+  </body>
+
+</html>

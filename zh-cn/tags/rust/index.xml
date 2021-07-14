@@ -6,7 +6,11 @@
     <description>Recent content in rust on 张召付</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Rust</title>
       <link>https://zhangzhaofu.github.io/zh-cn/posts/rust/</link>
@@ -17,7 +21,11 @@
 设置环境变量 export PATH=$PATH:$HOME/.cargo/bin
 用rustup管理工具链 rustup target list rustup target add x86_64-pc-windows-gnu rustup target add x86_64-apple-darwin
 在Windows中使用gnu工具链 rustup set default-host x86_64-pc-windows-gnu 查看C:\Users\zhangzf.rustup\toolchains\stable-x86_64-pc-windows-gnu\lib\rustlib\x86_64-pc-windows-gnu\bin中gcc的版本 下载mingw-w64对应的版本,并设置环境变量
-cargo cargo update cargo clean cargo build</description>
+cargo cargo update cargo clean cargo build
+数据类型  标量类型 (scalar) 复合类型 (compound)  标量类型
+ 整型 浮点型 布尔类型 字符类型  整型
+ i8 u8 i16 u16 i32 u32 i64 u64 i128 u128 isize usize  浮点型
+ f32 f64  布尔类型</description>
     </item>
     
   </channel>

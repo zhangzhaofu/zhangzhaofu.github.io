@@ -6,14 +6,22 @@
     <description>Recent content in go on 张召付</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Go学习</title>
       <link>https://zhangzhaofu.github.io/zh-cn/posts/go/</link>
       <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://zhangzhaofu.github.io/zh-cn/posts/go/</guid>
-      <description>Go学习资料 </description>
+      <description>Go学习 设置国内代理 vi ~/.zshrc export GO111MODULE=on export GOPROXY=&amp;quot;https://goproxy.cn,direct&amp;rdquo;
+测试是否安装成功: time go get golang.org/x/tour
+Go学习资料 c语言编程网 Go语言中文网 Go语言圣经 Go语言高级编程 李文周的博客 Go语言101 Go语言设计与实现 Go语言原本
+帮助文档 go help aSubCommand go doc fmt.Printf godoc -http=localhost:6060
+编译go源码 ./src/make.bash 编译运行程序 go run . go子命令 (运行不带参数的go命令将会列出所有支持的go子命令) go run go build go install go fmt go test go doc go mod</description>
     </item>
     
   </channel>

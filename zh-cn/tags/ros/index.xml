@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ros on 张召付</title>
+    <link>https://zhangzhaofu.github.io/zh-cn/tags/ros/</link>
+    <description>Recent content in ros on 张召付</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/ros/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ROS</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/ros/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/ros/</guid>
+      <description>ROS 张新宇老师的专栏《机器人操作系统ROS&amp;ndash;史话36篇》
+http://wiki.ros.org/cn/ROS/Tutorials https://answers.ros.org/questions/ http://lists.ros.org/lurker/list/ros-users.en.html
+https://github.com/ros
+catkin  mkdir -p catkin_ws/src  cd catkin_ws/src catkin_init_workspace  catkin_create_pkg test_pkg test_pkg中 include/ 头文件 src/ 源文件 node/ 用于rospy的脚本 launch/ 用于roslaunch的启动文件 msg/ 消息文件 srv/ 服务文件
+ cd catkin_ws catkin_make  source ~/catkin_ws/devel/setup.bash </description>
+    </item>
+    
+  </channel>
+</rss>

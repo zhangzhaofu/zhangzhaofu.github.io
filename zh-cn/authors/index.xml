@@ -5,6 +5,10 @@
     <link>https://zhangzhaofu.github.io/zh-cn/authors/</link>
     <description>Recent content in Authors on 张召付</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://zhangzhaofu.github.io/zh-cn/authors/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="https://zhangzhaofu.github.io/zh-cn/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

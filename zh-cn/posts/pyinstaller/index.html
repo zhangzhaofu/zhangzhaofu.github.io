@@ -9,19 +9,22 @@
     <meta name="author" content="张召付">
     <meta name="description" content="pyinstaller部署pyqt5开发的程序demo 可以查看hello_pyinstaller
 使用python3.8在mac中遇到的问题, TypeError: an integer is required (got type bytes) when compiling any script 解决办法：
-pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz ">
+pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz  Pyinstaller -F setup.py 打包exe Pyinstaller -F -w setup.py 不带控制台的打包 Pyinstaller -F -i xx.ico setup.py 打包指定exe图标打包 平常我们只需要这三个就好了，足够满足所有需求了。
+pyinstaller -D setup.py 打包成一个文件夹里 -D和-F选项区别 -F选项应该是对-D选项操作后进行了一次压缩，压缩成了一个单独执行程序，每次启动的时候会比较慢，推荐-D打包方式">
     <meta name="keywords" content="blog,desenvolvedor,pessoal">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="pyinstaller使用"/>
 <meta name="twitter:description" content="pyinstaller部署pyqt5开发的程序demo 可以查看hello_pyinstaller
 使用python3.8在mac中遇到的问题, TypeError: an integer is required (got type bytes) when compiling any script 解决办法：
-pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz "/>
+pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz  Pyinstaller -F setup.py 打包exe Pyinstaller -F -w setup.py 不带控制台的打包 Pyinstaller -F -i xx.ico setup.py 打包指定exe图标打包 平常我们只需要这三个就好了，足够满足所有需求了。
+pyinstaller -D setup.py 打包成一个文件夹里 -D和-F选项区别 -F选项应该是对-D选项操作后进行了一次压缩，压缩成了一个单独执行程序，每次启动的时候会比较慢，推荐-D打包方式"/>
 
     <meta property="og:title" content="pyinstaller使用" />
 <meta property="og:description" content="pyinstaller部署pyqt5开发的程序demo 可以查看hello_pyinstaller
 使用python3.8在mac中遇到的问题, TypeError: an integer is required (got type bytes) when compiling any script 解决办法：
-pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz " />
+pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz  Pyinstaller -F setup.py 打包exe Pyinstaller -F -w setup.py 不带控制台的打包 Pyinstaller -F -i xx.ico setup.py 打包指定exe图标打包 平常我们只需要这三个就好了，足够满足所有需求了。
+pyinstaller -D setup.py 打包成一个文件夹里 -D和-F选项区别 -F选项应该是对-D选项操作后进行了一次压缩，压缩成了一个单独执行程序，每次启动的时候会比较慢，推荐-D打包方式" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://zhangzhaofu.github.io/zh-cn/posts/pyinstaller/" />
 <meta property="article:published_time" content="2020-10-23T00:00:00+00:00" />
@@ -70,7 +73,7 @@ pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz " 
       <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     
 
-    <meta name="generator" content="Hugo 0.76.5" />
+    <meta name="generator" content="Hugo 0.68.3" />
   </head>
 
   
@@ -166,13 +169,15 @@ pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz " 
           
           <div class="categories">
   <i class="fa fa-folder" aria-hidden="true"></i>
-    <a href="/zh-cn/categories/python/">python</a></div>
+    <a href="/zh-cn/categories/blog/">blog</a></div>
 
           <div class="tags">
   <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="/zh-cn/tags/pyinstaller/">pyinstaller</a>
+      <span class="separator">•</span>
     <a href="/zh-cn/tags/python/">python</a>
       <span class="separator">•</span>
-    <a href="/zh-cn/tags/qt/">qt</a></div>
+    <a href="/zh-cn/tags/cs/">cs</a></div>
 
         </div>
       </header>
@@ -184,7 +189,15 @@ pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz " 
 <h2 id="使用python38在mac中遇到的问题-typeerror-an-integer-is-required-got-type-bytes-when-compiling-any-script">使用python3.8在mac中遇到的问题, TypeError: an integer is required (got type bytes) when compiling any script</h2>
 <p>解决办法：</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz
-</code></pre></div>
+</code></pre></div><h2 id="heading"></h2>
+<p>Pyinstaller -F setup.py 打包exe
+Pyinstaller -F -w setup.py 不带控制台的打包
+Pyinstaller -F -i xx.ico setup.py 打包指定exe图标打包
+平常我们只需要这三个就好了，足够满足所有需求了。</p>
+<h2 id="pyinstaller--d-setuppy-打包成一个文件夹里">pyinstaller -D setup.py 打包成一个文件夹里</h2>
+<h2 id="-d和-f选项区别">-D和-F选项区别</h2>
+<p>-F选项应该是对-D选项操作后进行了一次压缩，压缩成了一个单独执行程序，每次启动的时候会比较慢，推荐-D打包方式</p>
+
       </div>
 
 

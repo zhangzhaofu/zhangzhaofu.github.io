@@ -6,14 +6,18 @@
     <description>Recent content in docker on 张召付</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Docker</title>
       <link>https://zhangzhaofu.github.io/zh-cn/posts/docker/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://zhangzhaofu.github.io/zh-cn/posts/docker/</guid>
-      <description>Install sudo apt install docker.io Get Ubuntu16.04 image sudo docker pull ubuntu:16.04 Start ubuntu16.04 and make /home/zhangzf/Workspace to docker&amp;rsquo;s /Workspace sudo docker run -it -v /home/zhangzf/Workspace:/Workspace ubuntu:16.04 /bin/bash Create user: &amp;lsquo;zhangzf&amp;rsquo; Install sudo, make &amp;lsquo;zhangzf&amp;rsquo; into sudoer su - zhangzf 查看所有的容器 sudo docker container ls -a 运行一个已有的容器 sudo docker start 81414ed72371 sudo docker attach 81414ed72371 把容器打包成镜像 sudo docker commit 81414ed72371 hoba-desktop:init 查看已有的镜像 sudo docker image ls Docker Hub my id is doubledog change tag sudo docker tag hoba-desktop:init doubledog/hoba-desktop:init 登陆自己的docker hub sudo docker login push sudo docker push doubledog/hoba-desktop:init </description>
+      <description>Docker Install sudo apt install docker.io Get Ubuntu16.04 image sudo docker pull ubuntu:16.04 Start ubuntu16.04 and make /home/zhangzf/Workspace to docker&amp;rsquo;s /Workspace sudo docker run -it -v /home/zhangzf/Workspace:/Workspace ubuntu:16.04 /bin/bash Create user: &amp;lsquo;zhangzf&amp;rsquo; Install sudo, make &amp;lsquo;zhangzf&amp;rsquo; into sudoer su - zhangzf 查看所有的容器 sudo docker container ls -a 运行一个已有的容器 sudo docker start 81414ed72371 sudo docker attach 81414ed72371 把容器打包成镜像 sudo docker commit 81414ed72371 hoba-desktop:init 查看已有的镜像 sudo docker image ls Docker Hub my id is doubledog change tag sudo docker tag hoba-desktop:init doubledog/hoba-desktop:init 登陆自己的docker hub sudo docker login push sudo docker push doubledog/hoba-desktop:init </description>
     </item>
     
   </channel>

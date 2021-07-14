@@ -3,8 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/bechhoff/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/bechhoff/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zhangzhaofu.github.io/zh-cn/categories/blog/</loc>
-    <lastmod>2020-11-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -18,8 +28,13 @@
   </url>
   
   <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/c/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zhangzhaofu.github.io/zh-cn/categories/</loc>
-    <lastmod>2020-11-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -34,6 +49,146 @@
   
   <url>
     <loc>https://zhangzhaofu.github.io/zh-cn/tags/cs/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/emb/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/git/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/git/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/life/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/ros/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/ros/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/stduy/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://zhangzhaofu.github.io/en-us/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://zhangzhaofu.github.io/zh-cn/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/tool/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/categories/tools/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://zhangzhaofu.github.io/en-us/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://zhangzhaofu.github.io/zh-cn/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/blog/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://zhangzhaofu.github.io/en-us/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://zhangzhaofu.github.io/zh-cn/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/book/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/book/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/link/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/macos/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/macos/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/os/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/study/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/study/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/c&#43;&#43;/</loc>
     <lastmod>2020-11-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,47 +203,17 @@
   </url>
   
   <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/tags/</loc>
-    <lastmod>2020-11-11T00:00:00+00:00</lastmod>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/blog/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://zhangzhaofu.github.io/en-us/tags/"
+                href="https://zhangzhaofu.github.io/en-us/tags/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://zhangzhaofu.github.io/zh-cn/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/posts/</loc>
-    <lastmod>2020-11-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://zhangzhaofu.github.io/en-us/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://zhangzhaofu.github.io/zh-cn/posts/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/</loc>
-    <lastmod>2020-11-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://zhangzhaofu.github.io/en-us/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://zhangzhaofu.github.io/zh-cn/"
+                href="https://zhangzhaofu.github.io/zh-cn/tags/blog/"
                 />
   </url>
   
@@ -103,6 +228,31 @@
   </url>
   
   <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/nodejs/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/nodejs/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/web/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/program_think/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/100ask/</loc>
+    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zhangzhaofu.github.io/zh-cn/posts/bitcoin_uiinterface/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url>
@@ -113,12 +263,22 @@
   </url>
   
   <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/blockchain/</loc>
+    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zhangzhaofu.github.io/zh-cn/posts/docker/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zhangzhaofu.github.io/zh-cn/tags/docker/</loc>
+    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/lang/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -143,17 +303,12 @@
   </url>
   
   <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/tags/sum/</loc>
-    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zhangzhaofu.github.io/zh-cn/posts/sum/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/tags/tools/</loc>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/blockchain/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -163,12 +318,12 @@
   </url>
   
   <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/tags/ituring/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/100ask/</loc>
+    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/tags/people/</loc>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/ituring/</loc>
     <lastmod>2020-11-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -183,11 +338,6 @@
   </url>
   
   <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/tags/teacher/</loc>
-    <lastmod>2020-11-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zhangzhaofu.github.io/zh-cn/posts/ituring/</loc>
     <lastmod>2020-11-04T00:00:00+00:00</lastmod>
   </url>
@@ -198,22 +348,57 @@
   </url>
   
   <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/c&#43;&#43;/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zhangzhaofu.github.io/zh-cn/tags/car/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/tags/life/</loc>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/c/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/posts/car_-insurance/</loc>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/electron/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/electron/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/gui/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/desktop/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/cs/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/car_insurance/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zhangzhaofu.github.io/zh-cn/tags/tianjin/</loc>
+    <lastmod>2020-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/web/</loc>
     <lastmod>2020-10-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -228,23 +413,8 @@
   </url>
   
   <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/categories/javascript/</loc>
-    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zhangzhaofu.github.io/zh-cn/posts/javascript/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/tags/web/</loc>
-    <lastmod>2020-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/tags/linux/</loc>
-    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -258,17 +428,7 @@
   </url>
   
   <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/categories/raspberry/</loc>
-    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zhangzhaofu.github.io/zh-cn/tags/go/</loc>
-    <lastmod>2020-10-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/categories/go/</loc>
     <lastmod>2020-10-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -278,7 +438,12 @@
   </url>
   
   <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/categories/linux/</loc>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/hacker/</loc>
+    <lastmod>2020-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/linux/</loc>
     <lastmod>2020-10-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -288,28 +453,23 @@
   </url>
   
   <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/safe/</loc>
+    <lastmod>2020-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/hacker/</loc>
+    <lastmod>2020-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/pyinstaller/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zhangzhaofu.github.io/zh-cn/posts/pyinstaller/</loc>
     <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/categories/python/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/tags/blog/</loc>
-    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://zhangzhaofu.github.io/en-us/tags/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://zhangzhaofu.github.io/zh-cn/tags/blog/"
-                />
   </url>
   
   <url>
