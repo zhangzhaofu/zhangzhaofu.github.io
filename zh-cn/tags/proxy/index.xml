@@ -13,7 +13,7 @@
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://zhangzhaofu.github.io/zh-cn/posts/proxy/</guid>
-      <description>设置命令行代理 export http_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; export https_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; 取消设置 export http_proxy=&amp;#34;&amp;#34; export https_proxy=&amp;#34;&amp;#34; </description>
+      <description>翻墙  购买VPS, 安装openvpn 购买收费vpn, ExpressVPN, Lantern 使用免费vpn, Lantern, 无界, 赛风  命令行代理 export http_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; export https_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; export http_proxy=&amp;#34;&amp;#34; export https_proxy=&amp;#34;&amp;#34; alias sethttpproxy=&amp;#39;export http_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; &amp;amp;&amp;amp; export https_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34;&amp;#39; alias unsethttpproxy=&amp;#39;export http_proxy=&amp;#34;&amp;#34; &amp;amp;&amp;amp; export https_proxy=&amp;#34;&amp;#34;&amp;#39; </description>
     </item>
     
   </channel>

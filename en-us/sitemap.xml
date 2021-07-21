@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://zhangzhaofu.github.io/en-us/posts/</loc>
     <lastmod>2020-10-22T00:00:00+00:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="en-us"
                 href="https://zhangzhaofu.github.io/en-us/posts/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zhangzhaofu.github.io/en-us/tags/blog/</loc>
     <lastmod>2020-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -30,9 +27,7 @@
                 hreflang="en-us"
                 href="https://zhangzhaofu.github.io/en-us/tags/blog/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zhangzhaofu.github.io/en-us/categories/blog/</loc>
     <lastmod>2020-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -45,9 +40,7 @@
                 hreflang="en-us"
                 href="https://zhangzhaofu.github.io/en-us/categories/blog/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zhangzhaofu.github.io/en-us/categories/</loc>
     <lastmod>2020-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -60,9 +53,7 @@
                 hreflang="en-us"
                 href="https://zhangzhaofu.github.io/en-us/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zhangzhaofu.github.io/en-us/posts/hugo/</loc>
     <lastmod>2020-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -75,9 +66,7 @@
                 hreflang="en-us"
                 href="https://zhangzhaofu.github.io/en-us/posts/hugo/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zhangzhaofu.github.io/en-us/tags/hugo/</loc>
     <lastmod>2020-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -90,9 +79,7 @@
                 hreflang="en-us"
                 href="https://zhangzhaofu.github.io/en-us/tags/hugo/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zhangzhaofu.github.io/en-us/tags/</loc>
     <lastmod>2020-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -105,9 +92,7 @@
                 hreflang="en-us"
                 href="https://zhangzhaofu.github.io/en-us/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zhangzhaofu.github.io/en-us/</loc>
     <lastmod>2020-10-22T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -120,9 +105,7 @@
                 hreflang="en-us"
                 href="https://zhangzhaofu.github.io/en-us/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zhangzhaofu.github.io/en-us/about/</loc>
     <xhtml:link
                 rel="alternate"
@@ -134,9 +117,7 @@
                 hreflang="en-us"
                 href="https://zhangzhaofu.github.io/en-us/about/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zhangzhaofu.github.io/en-us/authors/</loc>
     <xhtml:link
                 rel="alternate"
@@ -148,9 +129,7 @@
                 hreflang="en-us"
                 href="https://zhangzhaofu.github.io/en-us/authors/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zhangzhaofu.github.io/en-us/contact/</loc>
     <xhtml:link
                 rel="alternate"
@@ -162,9 +141,7 @@
                 hreflang="en-us"
                 href="https://zhangzhaofu.github.io/en-us/contact/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://zhangzhaofu.github.io/en-us/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -177,5 +154,4 @@
                 href="https://zhangzhaofu.github.io/en-us/series/"
                 />
   </url>
-  
 </urlset>

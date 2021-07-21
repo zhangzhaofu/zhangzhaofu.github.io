@@ -13,7 +13,10 @@
       <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://zhangzhaofu.github.io/zh-cn/posts/qt/</guid>
-      <description>qt qml debug export QT_MESSAGE_PATTERN=&amp;#34;[%{type}] %{appname} (%{file}:%{line}) - %{message}&amp;#34; </description>
+      <description>qt https://qmlbook.github.io/
+qt qml debug export QT_MESSAGE_PATTERN=&amp;#34;[%{type}] %{appname} (%{file}:%{line}) - %{message}&amp;#34; SciHubEVA (pyside2) https://leovan.me/cn/2018/05/cross-platform-gui-application-based-on-pyqt/ https://github.com/leovan/SciHubEVA.git 音乐播放器 FeelUOwn (pyqt5) http://cosven.me/blogs/57 https://github.com/feeluown/FeelUOwn qt经验 https://gitee.com/feiyangqingyun/qtkaifajingyan web https://juejin.cn/post/6844903906053455879
+qt6 python3 -m venv env source env/bin/activate pip install pyside6
+import PySide6 print(PySide6.__version__) </description>
     </item>
     
     <item>
@@ -22,18 +25,7 @@
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://zhangzhaofu.github.io/zh-cn/posts/qt_deploy_on_linux/</guid>
-      <description>ls Hoba Hoba.sh lib lnd plugins qml qt.conf Hoba.sh #!/bin/sh appname=`basename $0 | sed s,\.sh$,,` dirname=`dirname $0` tmp=&amp;#34;${dirname#?}&amp;#34; if [ &amp;#34;${dirname%$tmp}&amp;#34; != &amp;#34;/&amp;#34; ]; then dirname=$PWD/$dirname fi LD_LIBRARY_PATH=$dirname/lib export LD_LIBRARY_PATH $dirname/$appname &amp;#34;$@&amp;#34; qt.conf [Paths] Prefix = ./ Plugins = plugins Imports = qml Qml2Imports = qml plugins/ bearer iconengines imageformats platforminputcontexts platforms xcbglintegrations (我是用的linuxdeployqt,生成的。从github上下载源码编译安装。linuxdeployqt Hoab -qml=../../src/pages) qml com QtGraphicalEffects QtQml QtQuick QtQuick.2 (com 是生成二维码的一个工具用到的import模块,https://github.com/toby20130333/qtquickqrencode.git) lib fonts libgrpc++.so.1 libQt5DBus.so.5 libQt5QuickControls2.so.5 libQt5Svg.so.5 libssl.</description>
-    </item>
-    
-    <item>
-      <title>pyinstaller使用</title>
-      <link>https://zhangzhaofu.github.io/zh-cn/posts/pyinstaller/</link>
-      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhangzhaofu.github.io/zh-cn/posts/pyinstaller/</guid>
-      <description>pyinstaller部署pyqt5开发的程序demo 可以查看hello_pyinstaller
-使用python3.8在mac中遇到的问题, TypeError: an integer is required (got type bytes) when compiling any script 解决办法：
-pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz </description>
+      <description>qt deploy on linux ls Hoba Hoba.sh lib lnd plugins qml qt.conf Hoba.sh #!/bin/sh appname=`basename $0 | sed s,\.sh$,,` dirname=`dirname $0` tmp=&amp;#34;${dirname#?}&amp;#34; if [ &amp;#34;${dirname%$tmp}&amp;#34; != &amp;#34;/&amp;#34; ]; then dirname=$PWD/$dirname fi LD_LIBRARY_PATH=$dirname/lib export LD_LIBRARY_PATH $dirname/$appname &amp;#34;$@&amp;#34; qt.conf [Paths] Prefix = ./ Plugins = plugins Imports = qml Qml2Imports = qml plugins/ bearer iconengines imageformats platforminputcontexts platforms xcbglintegrations (我是用的linuxdeployqt,生成的。从github上下载源码编译安装。linuxdeployqt Hoab -qml=../../src/pages) qml com QtGraphicalEffects QtQml QtQuick QtQuick.2 (com 是生成二维码的一个工具用到的import模块,https://github.com/toby20130333/qtquickqrencode.git) lib fonts libgrpc++.</description>
     </item>
     
   </channel>
