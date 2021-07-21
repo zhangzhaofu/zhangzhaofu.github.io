@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pyinstaller on 张召付</title>
+    <link>https://zhangzhaofu.github.io/zh-cn/tags/pyinstaller/</link>
+    <description>Recent content in pyinstaller on 张召付</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/pyinstaller/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pyinstaller使用</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/pyinstaller/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/pyinstaller/</guid>
+      <description>pyinstaller部署pyqt5开发的程序demo 可以查看hello_pyinstaller
+使用python3.8在mac中遇到的问题, TypeError: an integer is required (got type bytes) when compiling any script 解决办法：
+pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz  Pyinstaller -F setup.py 打包exe Pyinstaller -F -w setup.py 不带控制台的打包 Pyinstaller -F -i xx.ico setup.py 打包指定exe图标打包 平常我们只需要这三个就好了，足够满足所有需求了。
+pyinstaller -D setup.py 打包成一个文件夹里 -D和-F选项区别 -F选项应该是对-D选项操作后进行了一次压缩，压缩成了一个单独执行程序，每次启动的时候会比较慢，推荐-D打包方式</description>
+    </item>
+    
+  </channel>
+</rss>

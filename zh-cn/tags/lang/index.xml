@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lang on 张召付</title>
+    <link>https://zhangzhaofu.github.io/zh-cn/tags/lang/</link>
+    <description>Recent content in lang on 张召付</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/lang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/rust/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/rust/</guid>
+      <description>Rust 安装Rust curl &amp;ndash;proto &amp;lsquo;=https&amp;rsquo; &amp;ndash;tlsv1.2 -sSf https://sh.rustup.rs | sh
+设置环境变量 export PATH=$PATH:$HOME/.cargo/bin
+用rustup管理工具链 rustup target list rustup target add x86_64-pc-windows-gnu rustup target add x86_64-apple-darwin
+在Windows中使用gnu工具链 rustup set default-host x86_64-pc-windows-gnu 查看C:\Users\zhangzf.rustup\toolchains\stable-x86_64-pc-windows-gnu\lib\rustlib\x86_64-pc-windows-gnu\bin中gcc的版本 下载mingw-w64对应的版本,并设置环境变量
+cargo cargo update cargo clean cargo build
+数据类型  标量类型 (scalar) 复合类型 (compound)  标量类型
+ 整型 浮点型 布尔类型 字符类型  整型
+ i8 u8 i16 u16 i32 u32 i64 u64 i128 u128 isize usize  浮点型
+ f32 f64  布尔类型</description>
+    </item>
+    
+    <item>
+      <title>Python教程</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/python/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;语言</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/c&#43;&#43;/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/c&#43;&#43;/</guid>
+      <description>C++ 链接 http://c.biancheng.net/cplus/ http://www.cplusplus.com/ https://en.cppreference.com/
+书籍 C++ Primer Effective C++ C++标准库 STL源码剖析 深度探索C++对象模型</description>
+    </item>
+    
+    <item>
+      <title>C语言</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/c/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/c/</guid>
+      <description>C https://akaedu.github.io/book/
+https://blog.csdn.net/thisway_diy/article/details/82425242
+书籍  Linux C编程一站式学习 (作者宋劲杉) C和指针 C陷阱与缺陷  视频：  郝斌C语言  数据结构推荐视频： 1、郝斌数据结构 2、浙江大学 陈越教授： https://www.bilibili.com/video/av18586085/?spm_id_from=trigger_reload
+《大话数据结构》作者: 程杰
+数据结构与算法分析 作者: [美] Mark Allen Weiss 译者: 冯舜玺
+嵌入式Linux应用开发完全手册》作者：韦东山 《ARM体系结构与编程（第2版）》作者：杜春雷
+《Linux设备驱动》第三版 作者: 科波特 译者: 魏永明 / 耿岳 / 钟书毅
+《Linux设备驱动开发详解》作者宋宝华 最新版的有点问题，建议看第二版，
+《linux内核完全注释》作者 赵炯 本书介绍 linux 0.11，可能只有一万多行代码，但是五脏俱全，包括了操作系统中涉及的基本内容。最为经典的是开头的一些基本介绍（如makefile，80386的保护模式，内存寻址等等），知道了这些才能深入学习下去。
+《Linux内核情景分析》作者毛德操 / 胡希明 经典好书，上下两册近1600页，厚，别指望一下子读完。 某一块不清楚时，就去翻一下它
+《UNIX环境高级编程》(第3版) 作者：作者: 史蒂文斯 (W.Richard Stevens) / 拉戈 (Stephen A.Rago) 译者: 戚正伟 / 张亚英 / 尤晋元
+《UNIX网络编程（第3版）》 作者: 史蒂文斯 / 芬纳 / 鲁道夫 译者: 杨继张 socket编程的辞海式书籍 - 堪称经典。</description>
+    </item>
+    
+    <item>
+      <title>JavaScript教程</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/javascript/</link>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/javascript/</guid>
+      <description>数据类型 布尔 (Boolean) 数字 (Number) 字符串 (String) 数组 (Array) 对象 (Object) 空 (Null) 未定义 (Undefined)
+在 JavaScript 中有 5 种不同的数据类型：
+string number boolean object function  3 种对象类型：
+Object Date Array  2 个不包含任何值的数据类型：
+null undefined  你可以使用 typeof 操作符来查看 JavaScript 变量的数据类型。
+constructor 属性返回所有 JavaScript 变量的构造函数。
+声明（创建）变量 var name; name = &amp;#34;hello&amp;#34;; 或者
+var name = &amp;#34;hello&amp;#34;; undefined 未使用值来声明的变量，其值实际上是 undefined。
+var name; // name的值是undefined 重新声明 JavaScript 变量 如果重新声明 JavaScript 变量，该变量的值不会丢失： 在以下两条语句执行后，变量 carname 的值依然是 &amp;ldquo;Volvo&amp;rdquo;：</description>
+    </item>
+    
+    <item>
+      <title>Go学习</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/go/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/go/</guid>
+      <description>Go学习 设置国内代理 vi ~/.zshrc export GO111MODULE=on export GOPROXY=&amp;ldquo;https://goproxy.cn,direct&amp;rdquo;
+测试是否安装成功: time go get golang.org/x/tour
+Go学习资料 c语言编程网 Go语言中文网 Go语言圣经 Go语言高级编程 李文周的博客 Go语言101 Go语言设计与实现 Go语言原本
+帮助文档 go help aSubCommand go doc fmt.Printf godoc -http=localhost:6060
+编译go源码 ./src/make.bash 编译运行程序 go run . go子命令 (运行不带参数的go命令将会列出所有支持的go子命令) go run go build go install go fmt go test go doc go mod</description>
+    </item>
+    
+  </channel>
+</rss>

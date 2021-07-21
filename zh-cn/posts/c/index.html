@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="zh-cn">
+
+    <meta name="author" content="张召付">
+    <meta name="description" content="C https://akaedu.github.io/book/
+https://blog.csdn.net/thisway_diy/article/details/82425242
+书籍  Linux C编程一站式学习 (作者宋劲杉) C和指针 C陷阱与缺陷  视频：  郝斌C语言  数据结构推荐视频： 1、郝斌数据结构 2、浙江大学 陈越教授： https://www.bilibili.com/video/av18586085/?spm_id_from=trigger_reload
+《大话数据结构》作者: 程杰
+数据结构与算法分析 作者: [美] Mark Allen Weiss 译者: 冯舜玺
+嵌入式Linux应用开发完全手册》作者：韦东山 《ARM体系结构与编程（第2版）》作者：杜春雷
+《Linux设备驱动》第三版 作者: 科波特 译者: 魏永明 / 耿岳 / 钟书毅
+《Linux设备驱动开发详解》作者宋宝华 最新版的有点问题，建议看第二版，
+《linux内核完全注释》作者 赵炯 本书介绍 linux 0.11，可能只有一万多行代码，但是五脏俱全，包括了操作系统中涉及的基本内容。最为经典的是开头的一些基本介绍（如makefile，80386的保护模式，内存寻址等等），知道了这些才能深入学习下去。
+《Linux内核情景分析》作者毛德操 / 胡希明 经典好书，上下两册近1600页，厚，别指望一下子读完。 某一块不清楚时，就去翻一下它
+《UNIX环境高级编程》(第3版) 作者：作者: 史蒂文斯 (W.Richard Stevens) / 拉戈 (Stephen A.Rago) 译者: 戚正伟 / 张亚英 / 尤晋元
+《UNIX网络编程（第3版）》 作者: 史蒂文斯 / 芬纳 / 鲁道夫 译者: 杨继张 socket编程的辞海式书籍 - 堪称经典。">
+    <meta name="keywords" content="blog,desenvolvedor,pessoal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="C语言"/>
+<meta name="twitter:description" content="C https://akaedu.github.io/book/
+https://blog.csdn.net/thisway_diy/article/details/82425242
+书籍  Linux C编程一站式学习 (作者宋劲杉) C和指针 C陷阱与缺陷  视频：  郝斌C语言  数据结构推荐视频： 1、郝斌数据结构 2、浙江大学 陈越教授： https://www.bilibili.com/video/av18586085/?spm_id_from=trigger_reload
+《大话数据结构》作者: 程杰
+数据结构与算法分析 作者: [美] Mark Allen Weiss 译者: 冯舜玺
+嵌入式Linux应用开发完全手册》作者：韦东山 《ARM体系结构与编程（第2版）》作者：杜春雷
+《Linux设备驱动》第三版 作者: 科波特 译者: 魏永明 / 耿岳 / 钟书毅
+《Linux设备驱动开发详解》作者宋宝华 最新版的有点问题，建议看第二版，
+《linux内核完全注释》作者 赵炯 本书介绍 linux 0.11，可能只有一万多行代码，但是五脏俱全，包括了操作系统中涉及的基本内容。最为经典的是开头的一些基本介绍（如makefile，80386的保护模式，内存寻址等等），知道了这些才能深入学习下去。
+《Linux内核情景分析》作者毛德操 / 胡希明 经典好书，上下两册近1600页，厚，别指望一下子读完。 某一块不清楚时，就去翻一下它
+《UNIX环境高级编程》(第3版) 作者：作者: 史蒂文斯 (W.Richard Stevens) / 拉戈 (Stephen A.Rago) 译者: 戚正伟 / 张亚英 / 尤晋元
+《UNIX网络编程（第3版）》 作者: 史蒂文斯 / 芬纳 / 鲁道夫 译者: 杨继张 socket编程的辞海式书籍 - 堪称经典。"/>
+
+    <meta property="og:title" content="C语言" />
+<meta property="og:description" content="C https://akaedu.github.io/book/
+https://blog.csdn.net/thisway_diy/article/details/82425242
+书籍  Linux C编程一站式学习 (作者宋劲杉) C和指针 C陷阱与缺陷  视频：  郝斌C语言  数据结构推荐视频： 1、郝斌数据结构 2、浙江大学 陈越教授： https://www.bilibili.com/video/av18586085/?spm_id_from=trigger_reload
+《大话数据结构》作者: 程杰
+数据结构与算法分析 作者: [美] Mark Allen Weiss 译者: 冯舜玺
+嵌入式Linux应用开发完全手册》作者：韦东山 《ARM体系结构与编程（第2版）》作者：杜春雷
+《Linux设备驱动》第三版 作者: 科波特 译者: 魏永明 / 耿岳 / 钟书毅
+《Linux设备驱动开发详解》作者宋宝华 最新版的有点问题，建议看第二版，
+《linux内核完全注释》作者 赵炯 本书介绍 linux 0.11，可能只有一万多行代码，但是五脏俱全，包括了操作系统中涉及的基本内容。最为经典的是开头的一些基本介绍（如makefile，80386的保护模式，内存寻址等等），知道了这些才能深入学习下去。
+《Linux内核情景分析》作者毛德操 / 胡希明 经典好书，上下两册近1600页，厚，别指望一下子读完。 某一块不清楚时，就去翻一下它
+《UNIX环境高级编程》(第3版) 作者：作者: 史蒂文斯 (W.Richard Stevens) / 拉戈 (Stephen A.Rago) 译者: 戚正伟 / 张亚英 / 尤晋元
+《UNIX网络编程（第3版）》 作者: 史蒂文斯 / 芬纳 / 鲁道夫 译者: 杨继张 socket编程的辞海式书籍 - 堪称经典。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zhangzhaofu.github.io/zh-cn/posts/c/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-11-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-11-01T00:00:00+00:00" /><meta property="og:site_name" content="张召付" />
+
+
+
+    <title>
+  C语言 · 张召付
+</title>
+
+    
+      <link rel="canonical" href="https://zhangzhaofu.github.io/zh-cn/posts/c/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.9836c03fe5c87d102278a33e86d0591ef36c89b1e17e8e547ebf84c05cee010e.css" integrity="sha256-mDbAP&#43;XIfRAieKM&#43;htBZHvNsibHhfo5Ufr&#43;EwFzuAQ4=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.717236c74e0a5208ef73964a9f44c6b443b689a95b270d8b2a40d0c012460dac.css" integrity="sha256-cXI2x04KUgjvc5ZKn0TGtEO2ialbJw2LKkDQwBJGDaw=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+      <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    
+
+    <meta name="generator" content="Hugo 0.85.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto"
+        onload=" twemoji.parse(document.body); "
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/zh-cn">
+      张召付
+    </a>
+    
+      
+        <span id="dark-mode-toggle" class="float-right">
+          <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </span>
+      
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/zh-cn/about/">关于</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/zh-cn/posts/">博客</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/zh-cn/contact/">联系方式</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="https://zhangzhaofu.github.io/en-us/">English</a>
+              </li>
+            
+          
+        
+        
+          <li class="navigation-item separator">
+            <span>|</span>
+          </li>
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">C语言</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2020-11-01T00:00:00Z'>
+                2020-11-01
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              1 分钟阅读时间
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/zh-cn/categories/blog/">blog</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="/zh-cn/tags/c/">c</a>
+      <span class="separator">•</span>
+    <a href="/zh-cn/tags/lang/">lang</a>
+      <span class="separator">•</span>
+    <a href="/zh-cn/tags/cs/">cs</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <h1 id="c">C</h1>
+<p><a href="https://akaedu.github.io/book/">https://akaedu.github.io/book/</a></p>
+<p><a href="https://blog.csdn.net/thisway_diy/article/details/82425242">https://blog.csdn.net/thisway_diy/article/details/82425242</a></p>
+<h2 id="书籍">书籍</h2>
+<ul>
+<li>Linux C编程一站式学习 (作者宋劲杉)</li>
+<li>C和指针</li>
+<li>C陷阱与缺陷</li>
+</ul>
+<h2 id="视频">视频：</h2>
+<ul>
+<li>郝斌C语言</li>
+</ul>
+<p>数据结构推荐视频：
+1、郝斌数据结构
+2、浙江大学 陈越教授：
+<a href="https://www.bilibili.com/video/av18586085/?spm_id_from=trigger_reload">https://www.bilibili.com/video/av18586085/?spm_id_from=trigger_reload</a></p>
+<p>《大话数据结构》作者: 程杰</p>
+<p>数据结构与算法分析
+作者: [美] Mark Allen Weiss
+译者: 冯舜玺</p>
+<p>嵌入式Linux应用开发完全手册》作者：韦东山
+《ARM体系结构与编程（第2版）》作者：杜春雷</p>
+<p>《Linux设备驱动》第三版 作者: 科波特
+译者: 魏永明 / 耿岳 / 钟书毅</p>
+<p>《Linux设备驱动开发详解》作者宋宝华
+最新版的有点问题，建议看第二版，</p>
+<p>《linux内核完全注释》作者 赵炯
+本书介绍 linux 0.11，可能只有一万多行代码，但是五脏俱全，包括了操作系统中涉及的基本内容。最为经典的是开头的一些基本介绍（如makefile，80386的保护模式，内存寻址等等），知道了这些才能深入学习下去。</p>
+<p>《Linux内核情景分析》作者毛德操 / 胡希明
+经典好书，上下两册近1600页，厚，别指望一下子读完。
+某一块不清楚时，就去翻一下它</p>
+<p>《UNIX环境高级编程》(第3版)
+作者：作者: 史蒂文斯 (W.Richard Stevens) / 拉戈 (Stephen A.Rago)
+译者: 戚正伟 / 张亚英 / 尤晋元</p>
+<p>《UNIX网络编程（第3版）》
+作者: 史蒂文斯 / 芬纳 / 鲁道夫
+译者: 杨继张
+socket编程的辞海式书籍 - 堪称经典。</p>
+<p>《Linux Shell脚本攻略 (第3版)》
+作者: [美] Clif Flynt / [印] Shantanu Tushar / [印] Sarath Lakshman
+译者: 门佳</p>
+<p>陈皓《跟我一起写makefile》，适合初学者。好像只有PDF没有纸书，</p>
+<h2 id="书籍-1">书籍</h2>
+<p>C Primer Plus
+C和指针
+C专家编程</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "zhangzf" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js"></script>
+      
+    
+
+    
+
+    
+
+    <script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//analytics.example.com/tracker.js', 'fathom');
+fathom('set', 'siteId', 'ABCDE');
+fathom('trackPageview');
+</script>
+
+
+    <script async defer data-domain="example.com" src="https://analytics.example.com/js/plausible.js"></script>
+
+
+    <script data-goatcounter="https://code.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+  </body>
+
+</html>

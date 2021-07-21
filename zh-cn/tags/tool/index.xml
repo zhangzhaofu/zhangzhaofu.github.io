@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tool on 张召付</title>
+    <link>https://zhangzhaofu.github.io/zh-cn/tags/tool/</link>
+    <description>Recent content in tool on 张召付</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/tool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/git/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/git/</guid>
+      <description>git git log 更改时区 git config --global log.date local git svn  install git-svn  sudo apt install git-svn 用法 初始化本地代码库： git svn clone -s svn-repository-url 建立分支，切换，提交，合并等纯git操作 推送到远端Git 仓库中 当前分支和远程SVN同步： git svn rebase 。 当同步SVN时出现冲突，需要手动修改冲突，git add 添加后继续rebase: git svn rebase --continue 或者提交到远端的SVN仓库中，假如你本地是git ， 远端是SVN， git svn dcommit svn和git的工作原理毕竟不同，git对代码提交的非线性特性在svn中难以再现，如果使用了git-merge或者git-pull，再提交到svn，相关分支上的提交历史有可能无法体现在svn上。从svn的使用者的角度，无法辨别这是一个提交还是一次合并，所以在和svn协作过程中，尽量让代码库保持线性。 尽量保持git代码库的线性特征。比如在new_branch分支中，先和master做rebase，再合并到master分支中： git rebase master git checkout master git merge new_branch 然后在master上做dcommit，就可以在svn代码库中看到完整的提交历史 大桥bridge的git-svn git svn clone https://39.100.74.73:9000/svn/A24港珠澳大桥维检机器人/03开发阶段/V10/02软件 bridge git代码管理 rebase git checkout master git pull git checkout local git rebase -i HEAD~2 //合并提交 --- 2表示合并两个 git rebase master----&amp;gt;解决冲突---&amp;gt;git rebase --continue git checkout master git merge local git push git全局忽略.</description>
+    </item>
+    
+    <item>
+      <title>nmap</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/nmap/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/nmap/</guid>
+      <description>nmap brew install nmap 查看远程机器47.102.112.2的端口号 nmap -v -p 1-65535 -sV -O -sS -T4 47.102.112.2 </description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/docker/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/docker/</guid>
+      <description>Docker Install sudo apt install docker.io Get Ubuntu16.04 image sudo docker pull ubuntu:16.04 Start ubuntu16.04 and make /home/zhangzf/Workspace to docker&amp;rsquo;s /Workspace sudo docker run -it -v /home/zhangzf/Workspace:/Workspace ubuntu:16.04 /bin/bash Create user: &amp;lsquo;zhangzf&amp;rsquo; Install sudo, make &amp;lsquo;zhangzf&amp;rsquo; into sudoer su - zhangzf 查看所有的容器 sudo docker container ls -a 运行一个已有的容器 sudo docker start 81414ed72371 sudo docker attach 81414ed72371 把容器打包成镜像 sudo docker commit 81414ed72371 hoba-desktop:init 查看已有的镜像 sudo docker image ls Docker Hub my id is doubledog change tag sudo docker tag hoba-desktop:init doubledog/hoba-desktop:init 登陆自己的docker hub sudo docker login push sudo docker push doubledog/hoba-desktop:init </description>
+    </item>
+    
+    <item>
+      <title>sum校验</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/sum/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/sum/</guid>
+      <description>sum校验 文件校验 网上下载很多文件，都会提供md5或者SHA256校验，防止文件内容被篡改，文件下载到本地后，我们可以对文件进行校验。
+文件MD5、SHA1、SHA256校验 2f6c38be914b756fde482fff83064d37 test.txt // md5sum test.txt 228dfdb10e9ad6fdf5ca97f402355df1952112fe test.txt // shasum -a 1 test.tx d8a0785f3ce124ee8c79c172eefdc6989141aafaf9deab2dac8437ed5e60f5c4 test.txt // shasum -a 256 test.txt </description>
+    </item>
+    
+    <item>
+      <title>命令行代理</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/proxy/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/proxy/</guid>
+      <description>翻墙  购买VPS, 安装openvpn 购买收费vpn, ExpressVPN, Lantern 使用免费vpn, Lantern, 无界, 赛风  命令行代理 export http_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; export https_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; export http_proxy=&amp;#34;&amp;#34; export https_proxy=&amp;#34;&amp;#34; alias sethttpproxy=&amp;#39;export http_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34; &amp;amp;&amp;amp; export https_proxy=&amp;#34;http://127.0.0.1:64678&amp;#34;&amp;#39; alias unsethttpproxy=&amp;#39;export http_proxy=&amp;#34;&amp;#34; &amp;amp;&amp;amp; export https_proxy=&amp;#34;&amp;#34;&amp;#39; </description>
+    </item>
+    
+  </channel>
+</rss>

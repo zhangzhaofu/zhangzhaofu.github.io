@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gui on 张召付</title>
+    <link>https://zhangzhaofu.github.io/zh-cn/tags/gui/</link>
+    <description>Recent content in gui on 张召付</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/gui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>桌面软件开发技术</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/desktop/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/desktop/</guid>
+      <description>桌面软件开发技术 桌面操作系统 Windows xp, win7, win10 Mac OS X (macOS) Linux发行版 Redhat系 RHEL, CentOS, Fedora Debian系 Debian, Ubuntu, Raspberry Pi OS 其他
+开发方式 使用原生接口开发 使用web技术开发
+Windows下开发技术 在windows下开发技术的变化主要分为两部分，以.Net技术为分水岭，分为.Net出现之前及.Net出现之后
+.Net出现之前 编写 Windows 上可以运行的程序就要直接和系统API交互,或者封装好的框架。主要技术是Win32核心编程，MFC编程。主要的开发语言是C/C++
+.Net出现之后 .NET 框架是由微软开发的软件开发平台，其最主要的两个组成部分是公共语言运行时 (CLR) 和框架类库 (FCL)， 开发语言主要为C#
+2002年 - .NET1.0 2002 年微软推出了 .NET Framework 1.0，相应地 Visual Studio 也升级到 7，称为 Visual Studio 2002 上一个版本叫做 Visual Studio 6） 该框架包括 C# 和 VB.NET（ Visual Basic 的继任者） 同时，第一个版本的 ASP.NET 也在 .NET Framework 1.0 亮相，它作为网站的解决方案，一直是 .</description>
+    </item>
+    
+  </channel>
+</rss>

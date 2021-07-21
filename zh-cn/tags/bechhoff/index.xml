@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bechhoff on 张召付</title>
+    <link>https://zhangzhaofu.github.io/zh-cn/tags/bechhoff/</link>
+    <description>Recent content in bechhoff on 张召付</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/bechhoff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BechHoff-倍福</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/bechhoff/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/bechhoff/</guid>
+      <description>BechHoff-倍福 倍福
+总线： EtherCAT 产品  自动化软件 工业PC I/O 运动控制  </description>
+    </item>
+    
+  </channel>
+</rss>

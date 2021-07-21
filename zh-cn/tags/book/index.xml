@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>book on 张召付</title>
+    <link>https://zhangzhaofu.github.io/zh-cn/tags/book/</link>
+    <description>Recent content in book on 张召付</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>book</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/book/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/book/</guid>
+      <description>电子书链接 https://it-ebooks.info/ https://www.oreilly.com/</description>
+    </item>
+    
+    <item>
+      <title>图灵</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/ituring/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/ituring/</guid>
+      <description>程序员 https://www.ituring.com.cn/article/198286
+书 https://www.ituring.com.cn/article/509843
+计算机简史 无线通信简史：从电磁波到5G
+Python 路线 https://www.ituring.com.cn/article/509718</description>
+    </item>
+    
+  </channel>
+</rss>

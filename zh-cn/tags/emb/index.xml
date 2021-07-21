@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>emb on 张召付</title>
+    <link>https://zhangzhaofu.github.io/zh-cn/tags/emb/</link>
+    <description>Recent content in emb on 张召付</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/emb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BechHoff-倍福</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/bechhoff/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/bechhoff/</guid>
+      <description>BechHoff-倍福 倍福
+总线： EtherCAT 产品  自动化软件 工业PC I/O 运动控制  </description>
+    </item>
+    
+    <item>
+      <title>ROS</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/ros/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/ros/</guid>
+      <description>ROS 张新宇老师的专栏《机器人操作系统ROS&amp;ndash;史话36篇》
+http://wiki.ros.org/cn/ROS/Tutorials https://answers.ros.org/questions/ http://lists.ros.org/lurker/list/ros-users.en.html
+https://github.com/ros
+catkin  mkdir -p catkin_ws/src  cd catkin_ws/src catkin_init_workspace  catkin_create_pkg test_pkg test_pkg中 include/ 头文件 src/ 源文件 node/ 用于rospy的脚本 launch/ 用于roslaunch的启动文件 msg/ 消息文件 srv/ 服务文件
+ cd catkin_ws catkin_make  source ~/catkin_ws/devel/setup.bash </description>
+    </item>
+    
+    <item>
+      <title>韦东山</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/100ask/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/100ask/</guid>
+      <description>韦东山 在一个复杂的系统中，操作系统是大脑，单片机可以实现手指等功能 在技术方面：如果掌握了linux的bootloader, 那么C51，STM32是小菜一碟
+不要使用老一套办法来学习单片机 不要使用C51， STM32专用开发板 不要使用keil, MDK等集成度太高的软件
+嵌入式Linux的组成 bootloader linux kernel 内核 rootfs 根文件系统 app 应用程序
+bootloader 读出内核 初始化时钟 初始化内存 设置网卡 读取flash/sd卡的能力 显示logo,操作lcd的能力
+bootloader太复杂，怎么学习 -&amp;gt; 写出单独的程序 LED 时钟 网卡 Flash
+内核 也要有操作硬件的能力
+简单驱动程序框架 APP: 调用read, write等标准接口访问硬件 驱动: drv_open, drv_read
+驱动程序 = 软件框架 + 硬件能力
+硬件操作 看原理图 看芯片手册 知道怎么去读写寄存器
+硬件操作可以现在单片机中学习
+如何学习单片机 -&amp;gt; 为后续的Linux打基础 选择什么开发板 使用什么开发工具
+bootloader -&amp;gt; kernel/driver -&amp;gt; app (有界面qt, android， 无界面)
+开发板选择原则 -&amp;gt; 资料丰富
+开发板芯片 三星 s3c2440 s3c6410 s5pv210 exynos4412</description>
+    </item>
+    
+    <item>
+      <title>Raspberry</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/raspberry/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/raspberry/</guid>
+      <description>初始设置 用户名: pi 密码: raspberry
+查看型号 cat /proc/device-tree/model 我的查出来的结果是Raspberry Pi 3 Model B Rev 1.2 查看32位还是64位 getconf LONG_BIT 配置树莓派 很多配置可以进入 sudo raspi-config, 进行配置 添加wifi vi /etc/wpa_supplicant/wpa_supplicant.conf network={ ssid=&amp;#34;CU_6USt&amp;#34; psk=&amp;#34;6ust1qyd&amp;#34; key_mgmt=WPA-PSK priority=1 } 设置git服务器 添加git用户 sudo useradd git cd /home sudo mkdir git sudo chown git:git git sudo password git git仓库 git的家目录里,ssh-keygen cd .ssh vi authorized_keys, 添加其他电脑的~/.ssh/id_rsa.pub里的内容 cd ~git mkdir test.git cd test.git git init --bare 其他电脑clone git clone git@192.168.1.106:test.git </description>
+    </item>
+    
+  </channel>
+</rss>

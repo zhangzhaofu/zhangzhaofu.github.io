@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>100ask on 张召付</title>
+    <link>https://zhangzhaofu.github.io/zh-cn/tags/100ask/</link>
+    <description>Recent content in 100ask on 张召付</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zhangzhaofu.github.io/zh-cn/tags/100ask/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>韦东山</title>
+      <link>https://zhangzhaofu.github.io/zh-cn/posts/100ask/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangzhaofu.github.io/zh-cn/posts/100ask/</guid>
+      <description>韦东山 在一个复杂的系统中，操作系统是大脑，单片机可以实现手指等功能 在技术方面：如果掌握了linux的bootloader, 那么C51，STM32是小菜一碟
+不要使用老一套办法来学习单片机 不要使用C51， STM32专用开发板 不要使用keil, MDK等集成度太高的软件
+嵌入式Linux的组成 bootloader linux kernel 内核 rootfs 根文件系统 app 应用程序
+bootloader 读出内核 初始化时钟 初始化内存 设置网卡 读取flash/sd卡的能力 显示logo,操作lcd的能力
+bootloader太复杂，怎么学习 -&amp;gt; 写出单独的程序 LED 时钟 网卡 Flash
+内核 也要有操作硬件的能力
+简单驱动程序框架 APP: 调用read, write等标准接口访问硬件 驱动: drv_open, drv_read
+驱动程序 = 软件框架 + 硬件能力
+硬件操作 看原理图 看芯片手册 知道怎么去读写寄存器
+硬件操作可以现在单片机中学习
+如何学习单片机 -&amp;gt; 为后续的Linux打基础 选择什么开发板 使用什么开发工具
+bootloader -&amp;gt; kernel/driver -&amp;gt; app (有界面qt, android， 无界面)
+开发板选择原则 -&amp;gt; 资料丰富
+开发板芯片 三星 s3c2440 s3c6410 s5pv210 exynos4412</description>
+    </item>
+    
+  </channel>
+</rss>
