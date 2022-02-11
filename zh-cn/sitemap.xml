@@ -31,7 +31,16 @@
                 href="https://zhangzhaofu.github.io/zh-cn/categories/"
                 />
   </url><url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/posts/centos/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/centos/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://zhangzhaofu.github.io/zh-cn/tags/cs/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zhangzhaofu.github.io/zh-cn/tags/linux/</loc>
     <lastmod>2022-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhangzhaofu.github.io/zh-cn/tags/</loc>
@@ -279,9 +288,6 @@
     <lastmod>2020-10-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhangzhaofu.github.io/zh-cn/tags/hacker/</loc>
-    <lastmod>2020-10-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zhangzhaofu.github.io/zh-cn/tags/linux/</loc>
     <lastmod>2020-10-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zhangzhaofu.github.io/zh-cn/posts/linux/</loc>
