@@ -36,7 +36,7 @@
 http://wiki.ros.org/cn/ROS/Tutorials https://answers.ros.org/questions/ http://lists.ros.org/lurker/list/ros-users.en.html
 https://github.com/ros
 catkin  mkdir -p catkin_ws/src  cd catkin_ws/src catkin_init_workspace  catkin_create_pkg test_pkg test_pkg中 include/ 头文件 src/ 源文件 node/ 用于rospy的脚本 launch/ 用于roslaunch的启动文件 msg/ 消息文件 srv/ 服务文件
- cd catkin_ws catkin_make  source ~/catkin_ws/devel/setup.bash </description>
+ cd catkin_ws catkin_make  source ~/catkin_ws/devel/setup.bash ros launch文件 respawn =“true” （可选） 如果节点退出，则自动重新启动节点。 </description>
     </item>
     
     <item>
@@ -246,15 +246,6 @@ Python 路线 https://www.ituring.com.cn/article/509718</description>
     </item>
     
     <item>
-      <title>教育</title>
-      <link>https://zhangzhaofu.github.io/zh-cn/posts/teacher/</link>
-      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhangzhaofu.github.io/zh-cn/posts/teacher/</guid>
-      <description>儿童教育 关承华</description>
-    </item>
-    
-    <item>
       <title>C&#43;&#43;语言</title>
       <link>https://zhangzhaofu.github.io/zh-cn/posts/c&#43;&#43;/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
@@ -337,15 +328,6 @@ https://www.zhihu.com/question/40819195</description>
     </item>
     
     <item>
-      <title>车险</title>
-      <link>https://zhangzhaofu.github.io/zh-cn/posts/car_insurance/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhangzhaofu.github.io/zh-cn/posts/car_insurance/</guid>
-      <description>车险  第一年，太平洋，4780.16 第二年，平安, 3333.13 - 508 - 80  详细 </description>
-    </item>
-    
-    <item>
       <title>web学习</title>
       <link>https://zhangzhaofu.github.io/zh-cn/posts/web/</link>
       <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
@@ -354,19 +336,6 @@ https://www.zhihu.com/question/40819195</description>
       <description>web技术 https://www.runoob.com/w3cnote/web-10-years.html https://www.tianmaying.com/tutorial/web-history https://lushunjian.github.io/blog/2019/01/21/web%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF%E7%9A%84%E6%BC%94%E5%8F%98/ https://www.itsource.cn/web/news/1892.html https://iclient.supermap.io/dev/web/books/modern-web-gis-in-action/
 web安全 https://websec.readthedocs.io/zh/latest/basic/history.html
 学习路线 https://juejin.cn/post/6891430301525311502</description>
-    </item>
-    
-    <item>
-      <title>天津</title>
-      <link>https://zhangzhaofu.github.io/zh-cn/posts/tianjin/</link>
-      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhangzhaofu.github.io/zh-cn/posts/tianjin/</guid>
-      <description>时间线  8月底提交材料， 9月底收到准迁短信， 10月国庆放假回老家办理迁出， 10号去东丽区的张贵庄派出所办理迁入 30号去拿户口页及办理身份证  联系方式 天津易立物业服务有限公司
- 天津市东丽区华明高新技术产业区金地企业总部A区A座5B 18855128961  张贵庄派出所
- 东丽区先锋路13号 (022)24390434  户口页
- 先锋东路17号，东丽区人才资源和社会保障局 (022)24982923  身份证
- 东丽开发区一经路30号，人口管理服务中心 (022)24981763  </description>
     </item>
     
     <item>

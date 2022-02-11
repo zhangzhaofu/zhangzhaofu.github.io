@@ -65,7 +65,7 @@
       <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     
 
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.92.1" />
   </head>
 
   
@@ -178,14 +178,14 @@
         
         <h2 id="git">git</h2>
 <h3 id="git-log-更改时区">git log 更改时区</h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git config --global log.date local
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git config --global log.date local
 </code></pre></div><h3 id="git-svn">git svn</h3>
 <ul>
 <li>install git-svn</li>
 </ul>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt install git-svn
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt install git-svn
 </code></pre></div><h3 id="用法">用法</h3>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">初始化本地代码库： git svn clone -s svn-repository-url
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">初始化本地代码库： git svn clone -s svn-repository-url
 建立分支，切换，提交，合并等纯git操作
 推送到远端Git 仓库中
 当前分支和远程SVN同步： git svn rebase 。 当同步SVN时出现冲突，需要手动修改冲突，git add 添加后继续rebase: git svn rebase --continue
@@ -197,9 +197,9 @@ svn和git的工作原理毕竟不同，git对代码提交的非线性特性在sv
     git merge new_branch
 然后在master上做dcommit，就可以在svn代码库中看到完整的提交历史
 </code></pre></div><h2 id="大桥bridge的git-svn">大桥bridge的git-svn</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git svn clone https://39.100.74.73:9000/svn/A24港珠澳大桥维检机器人/03开发阶段/V10/02软件 bridge
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git svn clone https://39.100.74.73:9000/svn/A24港珠澳大桥维检机器人/03开发阶段/V10/02软件 bridge
 </code></pre></div><h2 id="git代码管理-rebase">git代码管理 rebase</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git checkout master
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git checkout master
 git pull
 git checkout local
 git rebase -i HEAD~2  //合并提交 --- 2表示合并两个
@@ -208,7 +208,7 @@ git checkout master
 git merge local
 git push
 </code></pre></div><h2 id="git全局忽略ds_store文件">git全局忽略.DS_Store文件</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git config --global core.excludesfile /Users/zhangzf/.gitignore_global
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git config --global core.excludesfile /Users/zhangzf/.gitignore_global
 echo &#34;.DS_Store&#34; &gt;&gt; ~/.gitignore_global
 </code></pre></div>
       </div>

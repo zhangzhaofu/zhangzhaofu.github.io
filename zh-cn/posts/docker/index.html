@@ -65,7 +65,7 @@
       <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     
 
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.92.1" />
   </head>
 
   
@@ -178,31 +178,31 @@
         
         <h1 id="docker">Docker</h1>
 <h2 id="install">Install</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt install docker.io
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt install docker.io
 </code></pre></div><h2 id="get-ubuntu1604-image">Get Ubuntu16.04 image</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker pull ubuntu:16.04
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker pull ubuntu:16.04
 </code></pre></div><h2 id="start-ubuntu1604-and-make-homezhangzfworkspace-to-dockers-workspace">Start ubuntu16.04 and make /home/zhangzf/Workspace to docker&rsquo;s /Workspace</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker run -it -v /home/zhangzf/Workspace:/Workspace ubuntu:16.04 /bin/bash
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker run -it -v /home/zhangzf/Workspace:/Workspace ubuntu:16.04 /bin/bash
 </code></pre></div><h2 id="create-user-zhangzf">Create user: &lsquo;zhangzf&rsquo;</h2>
 <h2 id="install-sudo-make-zhangzf-into-sudoer">Install sudo, make &lsquo;zhangzf&rsquo; into sudoer</h2>
 <h2 id="su---zhangzf">su - zhangzf</h2>
 <h2 id="查看所有的容器">查看所有的容器</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker container ls -a
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker container ls -a
 </code></pre></div><h2 id="运行一个已有的容器">运行一个已有的容器</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker start 81414ed72371
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker start 81414ed72371
 sudo docker attach 81414ed72371
 </code></pre></div><h2 id="把容器打包成镜像">把容器打包成镜像</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> sudo docker commit 81414ed72371 hoba-desktop:init
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> sudo docker commit 81414ed72371 hoba-desktop:init
 </code></pre></div><h2 id="查看已有的镜像">查看已有的镜像</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker image ls
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker image ls
 </code></pre></div><h2 id="docker-hub">Docker Hub</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">my id is doubledog
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">my id is doubledog
 </code></pre></div><h2 id="change-tag">change tag</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker tag hoba-desktop:init doubledog/hoba-desktop:init
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker tag hoba-desktop:init doubledog/hoba-desktop:init
 </code></pre></div><h2 id="登陆自己的docker-hub">登陆自己的docker hub</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker login
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker login
 </code></pre></div><h2 id="push">push</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker push doubledog/hoba-desktop:init
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo docker push doubledog/hoba-desktop:init
 </code></pre></div>
       </div>
 

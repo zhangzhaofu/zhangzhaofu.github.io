@@ -68,7 +68,7 @@
       <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     
 
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.92.1" />
   </head>
 
   
@@ -183,14 +183,14 @@
 <p>用户名: pi
 密码:   raspberry</p>
 <h2 id="查看型号">查看型号</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cat /proc/device-tree/model
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cat /proc/device-tree/model
 我的查出来的结果是Raspberry Pi 3 Model B Rev 1.2
 </code></pre></div><h2 id="查看32位还是64位">查看32位还是64位</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">getconf LONG_BIT
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">getconf LONG_BIT
 </code></pre></div><h2 id="配置树莓派">配置树莓派</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">很多配置可以进入 sudo raspi-config, 进行配置
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">很多配置可以进入 sudo raspi-config, 进行配置
 </code></pre></div><h2 id="添加wifi">添加wifi</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">vi /etc/wpa_supplicant/wpa_supplicant.conf
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">vi /etc/wpa_supplicant/wpa_supplicant.conf
 
 network={
         ssid=&#34;CU_6USt&#34;
@@ -199,7 +199,7 @@ network={
         priority=1
 }
 </code></pre></div><h2 id="设置git服务器">设置git服务器</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">添加git用户
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">添加git用户
 sudo useradd git
 cd /home
 sudo mkdir git

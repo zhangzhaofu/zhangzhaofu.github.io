@@ -89,7 +89,7 @@ var name; // name的值是undefined 重新声明 JavaScript 变量 如果重新�
       <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     
 
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.92.1" />
   </head>
 
   
@@ -227,100 +227,100 @@ undefined
 <p>你可以使用 typeof 操作符来查看 JavaScript 变量的数据类型。</p>
 <p>constructor 属性返回所有 JavaScript 变量的构造函数。</p>
 <h2 id="声明创建变量">声明（创建）变量</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var name;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var name;
 name = &#34;hello&#34;;
 </code></pre></div><p>或者</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var name = &#34;hello&#34;;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var name = &#34;hello&#34;;
 </code></pre></div><h2 id="undefined">undefined</h2>
 <p>未使用值来声明的变量，其值实际上是 undefined。</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var name;   // name的值是undefined
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var name;   // name的值是undefined
 </code></pre></div><h2 id="重新声明-javascript-变量">重新声明 JavaScript 变量</h2>
 <p>如果重新声明 JavaScript 变量，该变量的值不会丢失：
 在以下两条语句执行后，变量 carname 的值依然是 &ldquo;Volvo&rdquo;：</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var carname=&#34;Volvo&#34;;        
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var carname=&#34;Volvo&#34;;        
 var carname;
 </code></pre></div><h2 id="javascript-拥有动态类型">JavaScript 拥有动态类型</h2>
 <p>JavaScript 拥有动态类型。这意味着相同的变量可用作不同的类型：</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var x;               // x 为 undefined
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var x;               // x 为 undefined
 var x = 5;           // 现在 x 为数字
 var x = &#34;John&#34;;      // 现在 x 为字符串
 </code></pre></div><h2 id="字符串">字符串</h2>
 <p>字符串是存储字符（比如 &ldquo;Bill Gates&rdquo;）的变量。
 字符串可以是引号中的任意文本。您可以使用单引号或双引号：</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var carname=&#34;Volvo XC60&#34;;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var carname=&#34;Volvo XC60&#34;;
 var carname=&#39;Volvo XC60&#39;;
 </code></pre></div><p>可以使用内置属性 length 来计算字符串的长度：</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var txt = &#34;ABCDEFGHIJKLMNOPQRSTUVWXYZ&#34;;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var txt = &#34;ABCDEFGHIJKLMNOPQRSTUVWXYZ&#34;;
 var sln = txt.length;
 </code></pre></div><p>通常， JavaScript 字符串是原始值，可以使用字符创建： var firstName = &ldquo;John&rdquo;
 但我们也可以使用 new 关键字将字符串定义为一个对象： var firstName = new String(&ldquo;John&rdquo;)</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var x = &#34;John&#34;;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var x = &#34;John&#34;;
 var y = new String(&#34;John&#34;);
 typeof x // returns String
 typeof y // returns Object 
 </code></pre></div><p>不要创建 String 对象。它会拖慢执行速度，并可能产生其他副作用：</p>
 <h2 id="数字">数字</h2>
 <p>JavaScript 只有一种数字类型。数字可以带小数点，也可以不带：</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var x1=34.00;      // 使用小数点来写
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var x1=34.00;      // 使用小数点来写
 var x2=34;         // 不使用小数点来写
 </code></pre></div><h2 id="布尔">布尔</h2>
 <p>布尔（逻辑）只能有两个值：true 或 false。</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var x=true;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var x=true;
  var y=false;
 </code></pre></div><h2 id="数组">数组</h2>
 <p>下面的代码创建名为 cars 的数组：</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var cars=new Array();
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var cars=new Array();
  cars[0]=&#34;Saab&#34;;
  cars[1]=&#34;Volvo&#34;;
  cars[2]=&#34;BMW&#34;;
 </code></pre></div><p>或者 (condensed array):</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var cars=new Array(&#34;Saab&#34;,&#34;Volvo&#34;,&#34;BMW&#34;);
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var cars=new Array(&#34;Saab&#34;,&#34;Volvo&#34;,&#34;BMW&#34;);
 </code></pre></div><p>或者 (literal array):</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var cars=[&#34;Saab&#34;,&#34;Volvo&#34;,&#34;BMW&#34;]; 
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var cars=[&#34;Saab&#34;,&#34;Volvo&#34;,&#34;BMW&#34;]; 
 </code></pre></div><h2 id="对象">对象</h2>
 <p>对象由花括号分隔。在括号内部，对象的属性以名称和值对的形式 (name : value) 来定义。属性由逗号分隔：</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var person={firstname:&#34;John&#34;, lastname:&#34;Doe&#34;, id:5566};
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var person={firstname:&#34;John&#34;, lastname:&#34;Doe&#34;, id:5566};
 </code></pre></div><p>上面例子中的对象 (person) 有三个属性：firstname、lastname 以及 id。
 空格和折行无关紧要。声明可横跨多行：</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var person={
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var person={
  firstname : &#34;John&#34;,
  lastname  : &#34;Doe&#34;,
  id        :  5566
  };
 </code></pre></div><p>对象属性有两种寻址方式：</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">name=person.lastname;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">name=person.lastname;
 name=person[&#34;lastname&#34;]; 
 </code></pre></div><h2 id="undefined-和-null">Undefined 和 Null</h2>
 <p>Undefined 这个值表示变量不含有值。
 可以通过将变量的值设置为 null 来清空变量。</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cars=null;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cars=null;
 person=null;
 </code></pre></div><h2 id="声明变量类型">声明变量类型</h2>
 <p>当您声明新变量时，可以使用关键词 &ldquo;new&rdquo; 来声明其类型：</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var carname=new String;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> var carname=new String;
  var x=      new Number;
  var y=      new Boolean;
  var cars=   new Array;
  var person= new Object;
 </code></pre></div><h2 id="函数">函数</h2>
 <p>函数就是包裹在花括号中的代码块，前面使用了关键词 function：</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">function functionname()
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">function functionname()
 {
     执行代码
 }
 </code></pre></div><p>函数参数</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">function myFunction(var1,var2)
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">function myFunction(var1,var2)
 {
     代码
 }
 </code></pre></div><p>返回值</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">function myFunction()
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">function myFunction()
 {
     var x=5;
     return x;
 }
 </code></pre></div><p>JavaScript 函数可以通过一个表达式定义。</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var x = function (a, b) {return a * b};
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var x = function (a, b) {return a * b};
 var z = x(4, 3);
 </code></pre></div><h2 id="局部变量全局变量-作用域生存期">局部变量，全局变量 (作用域，生存期)</h2>
 <p>在 JavaScript 函数内部声明的变量（使用 var）是局部变量，所以只能在函数内部访问它
@@ -329,7 +329,7 @@ var z = x(4, 3);
 局部变量会在函数运行以后被删除。
 全局变量会在页面关闭后被删除。</p>
 <p>如果您把值赋给尚未声明的变量，该变量将被自动作为全局变量声明。</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> carname=&#34;Volvo&#34;;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> carname=&#34;Volvo&#34;;
 </code></pre></div><p>将声明一个全局变量 carname，即使它在函数内执行。</p>
 <p>HTML 中的全局变量
 在 HTML 中, 全局变量是 window 对象: 所有数据变量都属于 window 对象。</p>

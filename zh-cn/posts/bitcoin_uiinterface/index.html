@@ -65,7 +65,7 @@
       <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     
 
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.92.1" />
   </head>
 
   
@@ -178,7 +178,7 @@
         
         <h1 id="bitcoin-uiinterface">bitcoin uiInterface</h1>
 <h2 id="toxtoxcorecpp">tox/toxcore.cpp</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">#include &lt;ui_interface.h&gt;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">#include &lt;ui_interface.h&gt;
 
 static void friend_request_cb(Tox *tox, const uint8_t *public_key, const uint8_t *message, size_t length, void *user_data)
 {
@@ -187,14 +187,14 @@ static void friend_request_cb(Tox *tox, const uint8_t *public_key, const uint8_t
     uiInterface.FriendRequest(pubkeyHex, req-&gt;msg);
 }
 </code></pre></div><h2 id="ui_interfaceh">ui_interface.h</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">class CClientUIInterface
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">class CClientUIInterface
 {
     // ...
 
     ADD_SIGNALS_DECL_WRAPPER(FriendRequest, void, const std::string&amp;, const std::string&amp;);
 };
 </code></pre></div><h2 id="ui_interfacecpp">ui_interface.cpp</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">struct UISignals {
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">struct UISignals {
     // ...
     
     boost::signals2::signal&lt;CClientUIInterface::FriendRequestSig&gt; FriendRequest;
@@ -204,7 +204,7 @@ ADD_SIGNALS_IMPL_WRAPPER(FriendRequest);
 
 void CClientUIInterface::FriendRequest(const std::string&amp; pubkey, const std::string&amp; msg) { return g_ui_signals.FriendRequest(pubkey, msg); }
 </code></pre></div><h2 id="interfacesnodeh">interfaces/node.h</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">class Node
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">class Node
 {
     // ...
 
@@ -213,7 +213,7 @@ void CClientUIInterface::FriendRequest(const std::string&amp; pubkey, const std:
     virtual std::unique_ptr&lt;Handler&gt; handleFriendRequest(FriendRequestFn fn) = 0;
 };
 </code></pre></div><h2 id="interfacesnodecpp">interfaces/node.cpp</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">class NodeImpl : public Node
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">class NodeImpl : public Node
 {
     // ...
 
@@ -226,7 +226,7 @@ void CClientUIInterface::FriendRequest(const std::string&amp; pubkey, const std:
     }
 };
 </code></pre></div><h2 id="qtclientmodeh">qt/clientmode.h</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">class ClientModel : public QObject
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">class ClientModel : public QObject
 {
     // ...
 
@@ -240,7 +240,7 @@ private:
     std::unique_ptr&lt;interfaces::Handler&gt; m_handler_friend_request;
 };
 </code></pre></div><h2 id="qtclientmodecpp">qt/clientmode.cpp</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">void ClientModel::getFriendRequest(const QString&amp; pubkey, const QString&amp; msg)
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">void ClientModel::getFriendRequest(const QString&amp; pubkey, const QString&amp; msg)
 {
     Q_EMIT friendRequest(pubkey, msg);
 }
@@ -267,7 +267,7 @@ void ClientModel::unsubscribeFromCoreSignals()
     m_handler_friend_request-&gt;disconnect();
 }
 </code></pre></div><h2 id="qtmanagementpageh">qt/managementpage.h</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">class ManagementPage : public QWidget
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">class ManagementPage : public QWidget
 {
     // ...
 
@@ -275,7 +275,7 @@ private Q_SLOTS:
     void onFriendRequest(const QString&amp; pubkey, const QString&amp; msg);
 };
 </code></pre></div><h2 id="qtmanagementpagecpp">qt/managementpage.cpp</h2>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">void ManagementPage::setClientModel(ClientModel *_clientModel)
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">void ManagementPage::setClientModel(ClientModel *_clientModel)
 {
     // ...
 
